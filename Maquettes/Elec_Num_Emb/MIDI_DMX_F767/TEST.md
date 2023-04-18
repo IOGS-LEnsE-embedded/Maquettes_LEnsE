@@ -1,0 +1,1 @@
+# Maquette - MIDI to DMXMaquettes pédagogiques du LEnsE / IOGS / France / [Site du LEnsE](http://lense.institutoptique.fr/)## Tests réalisés- Sortie USB @460800 bauds- Sortie DMX- Entrées MIDI : 1, 2, 3- Communication nRF24 (8 octets)
