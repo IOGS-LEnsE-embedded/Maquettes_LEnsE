@@ -1,5 +1,5 @@
 EESchema Schematic File Version 4
-EELAYER 26 0
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -1262,7 +1262,7 @@ Wire Wire Line
 Wire Wire Line
 	650  5450 650  5350
 Text Notes 1650 5800 0    50   ~ 0
-Bande 5
+Bande 4
 $Comp
 L Device:R R?
 U 1 1 6566A3C2
@@ -1500,7 +1500,7 @@ Wire Wire Line
 Wire Wire Line
 	650  6500 650  6400
 Text Notes 1650 6850 0    50   ~ 0
-Bande 6
+Bande 4
 $Comp
 L Device:R R?
 U 1 1 65677B65
@@ -1738,7 +1738,7 @@ Wire Wire Line
 Wire Wire Line
 	650  7550 650  7450
 Text Notes 1650 7900 0    50   ~ 0
-Bande 7
+Bande 4
 $Comp
 L Device:R R?
 U 1 1 656875DB
