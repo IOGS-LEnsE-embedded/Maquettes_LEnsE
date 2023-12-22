@@ -21,7 +21,9 @@ GUI Tutorials
 .. toctree::
    :maxdepth: 1
    
-	Industrial Vision platform<contents/vision_indus>
+	Machine Vision platform<contents/vision_indus>
+	Holonomic Robot<contents/vision_indus>
+	Classic Robot<contents/vision_indus>
 
 
 
