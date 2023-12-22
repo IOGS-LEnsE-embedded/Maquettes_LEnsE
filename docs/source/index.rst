@@ -3,8 +3,8 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Documentation of learning technical system
-==========================================
+Documentation of learning technical platform
+============================================
 
 .. caution::
    This documentation website is still in development
