@@ -20,11 +20,17 @@ GUI Tutorials
 
 .. toctree::
    :maxdepth: 1
+   :caption: Embedded electronics platform
    
 	Machine Vision platform<contents/vision_indus>
 	Holonomic Robot<contents/vision_indus>
 	Classic Robot<contents/vision_indus>
 
+.. toctree::
+   :maxdepth: 1
+   :caption: Photonics platform !
+   
+	Test Platform<contents/vision_indus>
 
 
 About the LEnsE
