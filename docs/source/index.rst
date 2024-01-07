@@ -23,14 +23,14 @@ GUI Tutorials
    :caption: Embedded electronics platform
    
 	Machine Vision platform<contents/vision_indus>
-	Holonomic Robot<contents/vision_indus>
-	Classic Robot<contents/vision_indus>
+	Holonomic Robot<contents/holonomic_robot>
+	Wheel Robot<contents/wheel_robot>
 
 .. toctree::
    :maxdepth: 1
    :caption: Photonics platform !
    
-	Test Platform<contents/vision_indus>
+	Light Radiant Intensity Platform<contents/light_rad_int>
 
 
 About the LEnsE
