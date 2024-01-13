@@ -7,4 +7,4 @@ Documentation of labworks technical platforms
 =============================================
 
 .. caution::
-   A new version is available : `Maquettes LEnsE <https://github.com/IOGS-LEnsE/labwork-platform/>`_
+   A new version is available : `Machine Vision <https://github.com/IOGS-LEnsE/machine-vision>`_
