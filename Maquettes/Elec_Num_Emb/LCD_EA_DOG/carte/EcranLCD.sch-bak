@@ -1,0 +1,296 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date "25 nov 2015"
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L EcranLCD-rescue:LCD_DOG_163 LCD1
+U 1 1 56509916
+P 6200 1250
+F 0 "LCD1" H 4750 950 60  0000 C CNN
+F 1 "LCD_DOG_163" H 4800 850 60  0000 C CNN
+F 2 "" H 6200 1250 60  0000 C CNN
+F 3 "" H 6200 1250 60  0000 C CNN
+	1    6200 1250
+	1    0    0    -1  
+$EndComp
+$Comp
+L EcranLCD-rescue:CONN_6 P1
+U 1 1 565098CC
+P 850 1700
+F 0 "P1" V 800 1700 60  0000 C CNN
+F 1 "CONN_6" V 900 1700 60  0000 C CNN
+F 2 "" H 850 1700 60  0000 C CNN
+F 3 "" H 850 1700 60  0000 C CNN
+	1    850  1700
+	-1   0    0    1   
+$EndComp
+$Comp
+L EcranLCD-rescue:VCC #PWR2
+U 1 1 5650991B
+P 1350 1950
+F 0 "#PWR2" H 1350 2050 30  0001 C CNN
+F 1 "VCC" H 1350 2050 30  0000 C CNN
+F 2 "" H 1350 1950 60  0000 C CNN
+F 3 "" H 1350 1950 60  0000 C CNN
+	1    1350 1950
+	0    1    1    0   
+$EndComp
+$Comp
+L EcranLCD-rescue:GND #PWR1
+U 1 1 5650992A
+P 1350 1850
+F 0 "#PWR1" H 1350 1850 30  0001 C CNN
+F 1 "GND" H 1350 1780 30  0001 C CNN
+F 2 "" H 1350 1850 60  0000 C CNN
+F 3 "" H 1350 1850 60  0000 C CNN
+	1    1350 1850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L EcranLCD-rescue:GND #PWR7
+U 1 1 56509943
+P 3700 1050
+F 0 "#PWR7" H 3700 1050 30  0001 C CNN
+F 1 "GND" H 3700 980 30  0001 C CNN
+F 2 "" H 3700 1050 60  0000 C CNN
+F 3 "" H 3700 1050 60  0000 C CNN
+	1    3700 1050
+	-1   0    0    1   
+$EndComp
+$Comp
+L EcranLCD-rescue:VCC #PWR6
+U 1 1 56509952
+P 3600 1050
+F 0 "#PWR6" H 3600 1150 30  0001 C CNN
+F 1 "VCC" H 3600 1150 30  0000 C CNN
+F 2 "" H 3600 1050 60  0000 C CNN
+F 3 "" H 3600 1050 60  0000 C CNN
+	1    3600 1050
+	1    0    0    -1  
+$EndComp
+$Comp
+L EcranLCD-rescue:R R1
+U 1 1 565099CC
+P 2300 1550
+F 0 "R1" V 2380 1550 40  0000 C CNN
+F 1 "47" V 2307 1551 40  0000 C CNN
+F 2 "~" V 2230 1550 30  0000 C CNN
+F 3 "~" H 2300 1550 30  0000 C CNN
+	1    2300 1550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L EcranLCD-rescue:GND #PWR5
+U 1 1 565099EA
+P 2700 2050
+F 0 "#PWR5" H 2700 2050 30  0001 C CNN
+F 1 "GND" H 2700 1980 30  0001 C CNN
+F 2 "" H 2700 2050 60  0000 C CNN
+F 3 "" H 2700 2050 60  0000 C CNN
+	1    2700 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L EcranLCD-rescue:VCC #PWR3
+U 1 1 565099F9
+P 2000 1500
+F 0 "#PWR3" H 2000 1600 30  0001 C CNN
+F 1 "VCC" H 2000 1600 30  0000 C CNN
+F 2 "" H 2000 1500 60  0000 C CNN
+F 3 "" H 2000 1500 60  0000 C CNN
+	1    2000 1500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3600 1050 3600 1150
+Wire Wire Line
+	3700 1050 3700 1100
+Wire Wire Line
+	2800 1550 2650 1550
+Wire Wire Line
+	2800 1850 2650 1850
+Wire Wire Line
+	2650 1850 2650 1550
+Connection ~ 2650 1550
+Wire Wire Line
+	2800 1950 2700 1950
+Wire Wire Line
+	2700 1650 2700 1950
+Wire Wire Line
+	2700 1650 2800 1650
+Connection ~ 2700 1950
+Wire Wire Line
+	2050 1550 2000 1550
+Wire Wire Line
+	2000 1550 2000 1500
+Wire Wire Line
+	1200 1850 1350 1850
+Wire Wire Line
+	1200 1950 1350 1950
+Text GLabel 1350 1450 2    60   Input ~ 0
+RS
+Text GLabel 1350 1550 2    60   Input ~ 0
+SCK
+Text GLabel 1350 1650 2    60   Input ~ 0
+SDO
+Text GLabel 1350 1750 2    60   Input ~ 0
+CS
+Wire Wire Line
+	1200 1450 1350 1450
+Wire Wire Line
+	1200 1550 1350 1550
+Wire Wire Line
+	1200 1650 1350 1650
+Wire Wire Line
+	1200 1750 1350 1750
+$Comp
+L EcranLCD-rescue:VCC #PWR10
+U 1 1 56509CA5
+P 5200 1050
+F 0 "#PWR10" H 5200 1150 30  0001 C CNN
+F 1 "VCC" H 5200 1150 30  0000 C CNN
+F 2 "" H 5200 1050 60  0000 C CNN
+F 3 "" H 5200 1050 60  0000 C CNN
+	1    5200 1050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3950 1150 3950 1100
+Wire Wire Line
+	3950 1100 3700 1100
+Connection ~ 3700 1100
+Wire Wire Line
+	4200 1150 4200 1100
+Wire Wire Line
+	4200 1100 4300 1100
+Wire Wire Line
+	4300 1100 4300 1150
+Wire Wire Line
+	5200 1050 5200 1100
+Connection ~ 4300 1100
+Connection ~ 5200 1100
+$Comp
+L EcranLCD-rescue:GND #PWR9
+U 1 1 56509DDE
+P 5100 2550
+F 0 "#PWR9" H 5100 2550 30  0001 C CNN
+F 1 "GND" H 5100 2480 30  0001 C CNN
+F 2 "" H 5100 2550 60  0000 C CNN
+F 3 "" H 5100 2550 60  0000 C CNN
+	1    5100 2550
+	1    0    0    -1  
+$EndComp
+Text GLabel 5400 2550 3    60   Input ~ 0
+CS
+Text GLabel 5300 2550 3    60   Input ~ 0
+RS
+Text GLabel 4100 2550 3    60   Input ~ 0
+SDO
+Text GLabel 4200 2550 3    60   Input ~ 0
+SCK
+$Comp
+L EcranLCD-rescue:VCC #PWR8
+U 1 1 56509DF7
+P 4600 2650
+F 0 "#PWR8" H 4600 2750 30  0001 C CNN
+F 1 "VCC" H 4600 2750 30  0000 C CNN
+F 2 "" H 4600 2650 60  0000 C CNN
+F 3 "" H 4600 2650 60  0000 C CNN
+	1    4600 2650
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4100 2550 4100 2500
+Wire Wire Line
+	4200 2550 4200 2500
+Wire Wire Line
+	4600 2650 4600 2550
+Wire Wire Line
+	4300 2500 4300 2550
+Wire Wire Line
+	4300 2550 4400 2550
+Connection ~ 4600 2550
+Wire Wire Line
+	4400 2500 4400 2550
+Connection ~ 4400 2550
+Wire Wire Line
+	4500 2500 4500 2550
+Connection ~ 4500 2550
+Wire Wire Line
+	4700 2550 4700 2500
+Wire Wire Line
+	4800 2550 4800 2500
+Connection ~ 4700 2550
+Wire Wire Line
+	5000 2550 5000 2500
+Connection ~ 4800 2550
+Wire Wire Line
+	5100 2500 5100 2550
+Wire Wire Line
+	5300 2500 5300 2550
+Wire Wire Line
+	5400 2500 5400 2550
+$Comp
+L EcranLCD-rescue:R R2
+U 1 1 5656099E
+P 2050 2500
+F 0 "R2" V 2130 2500 40  0000 C CNN
+F 1 "270" V 2057 2501 40  0000 C CNN
+F 2 "~" V 1980 2500 30  0000 C CNN
+F 3 "~" H 2050 2500 30  0000 C CNN
+	1    2050 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L EcranLCD-rescue:GND #PWR4
+U 1 1 565609AD
+P 2050 2850
+F 0 "#PWR4" H 2050 2850 30  0001 C CNN
+F 1 "GND" H 2050 2780 30  0001 C CNN
+F 2 "" H 2050 2850 60  0000 C CNN
+F 3 "" H 2050 2850 60  0000 C CNN
+	1    2050 2850
+	1    0    0    -1  
+$EndComp
+Text GLabel 2000 2200 0    60   Input ~ 0
+SCK
+Wire Wire Line
+	2000 2200 2050 2200
+Wire Wire Line
+	2050 2200 2050 2250
+Wire Wire Line
+	2050 2750 2050 2850
+Wire Wire Line
+	2650 1550 2550 1550
+Wire Wire Line
+	2700 1950 2700 2050
+Wire Wire Line
+	3700 1100 3700 1150
+Wire Wire Line
+	4300 1100 5200 1100
+Wire Wire Line
+	5200 1100 5200 1150
+Wire Wire Line
+	4600 2550 4600 2500
+Wire Wire Line
+	4600 2550 4700 2550
+Wire Wire Line
+	4400 2550 4500 2550
+Wire Wire Line
+	4500 2550 4600 2550
+Wire Wire Line
+	4700 2550 4800 2550
+Wire Wire Line
+	4800 2550 5000 2550
+$EndSCHEMATC

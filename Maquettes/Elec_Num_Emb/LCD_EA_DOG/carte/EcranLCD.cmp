@@ -1,0 +1,31 @@
+Cmp-Mod V01 Created by CvPcb (2013-jul-07)-stable date = mer. 25 nov. 2015 20:19:57 CET
+
+BeginCmp
+TimeStamp = /56509916;
+Reference = LCD1;
+ValeurCmp = LCD_DOG_163;
+IdModule  = LCD_DOG;
+EndCmp
+
+BeginCmp
+TimeStamp = /565098CC;
+Reference = P1;
+ValeurCmp = CONN_6;
+IdModule  = SIL-6;
+EndCmp
+
+BeginCmp
+TimeStamp = /565099CC;
+Reference = R1;
+ValeurCmp = 47;
+IdModule  = R4;
+EndCmp
+
+BeginCmp
+TimeStamp = /5656099E;
+Reference = R2;
+ValeurCmp = 270;
+IdModule  = R4;
+EndCmp
+
+EndListe
