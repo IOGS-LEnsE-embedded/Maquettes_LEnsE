@@ -1,3 +1,0 @@
-(sym_lib_table
-  (lib (name EcranLCD-rescue)(type Legacy)(uri ${KIPRJMOD}/EcranLCD-rescue.lib)(options "")(descr ""))
-)
