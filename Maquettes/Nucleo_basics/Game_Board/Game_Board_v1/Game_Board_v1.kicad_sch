@@ -1112,6 +1112,116 @@
 				)
 			)
 		)
+		(symbol "Connector_Generic:Conn_01x01"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x01"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x01_1_1"
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 1.27)
+					(end 1.27 -1.27)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Connector_Generic:Conn_01x02"
 			(pin_names
 				(offset 1.016) hide)
@@ -4982,6 +5092,16 @@
 	)
 	(wire
 		(pts
+			(xy -36.83 34.29) (xy -34.29 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "11eb0dc9-d829-41a1-9704-662908e12344")
+	)
+	(wire
+		(pts
 			(xy 25.4 140.97) (xy 27.94 140.97)
 		)
 		(stroke
@@ -5429,6 +5549,16 @@
 			(type default)
 		)
 		(uuid "4c4eeaf6-6268-41e1-8d2f-1429339784dc")
+	)
+	(wire
+		(pts
+			(xy -36.83 36.83) (xy -34.29 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4cd39294-8973-4780-9244-62036209939e")
 	)
 	(wire
 		(pts
@@ -6252,6 +6382,16 @@
 	)
 	(wire
 		(pts
+			(xy -36.83 39.37) (xy -34.29 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ccde012c-67ad-40a9-b00d-3dc278056870")
+	)
+	(wire
+		(pts
 			(xy 105.41 127) (xy 105.41 129.54)
 		)
 		(stroke
@@ -6584,6 +6724,28 @@
 			)
 		)
 	)
+	(global_label "LCD_CS_t"
+		(shape input)
+		(at -36.83 39.37 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "08ef157a-6e92-41bd-89ff-ad4b4c806a61")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at -48.5237 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "SCL"
 		(shape input)
 		(at 182.88 83.82 0)
@@ -6602,6 +6764,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "nRF_RS_t"
+		(shape input)
+		(at -34.29 87.63 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0bba586f-9e51-4cb5-b932-1aaf8f778aa0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at -45.9232 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -6628,6 +6812,28 @@
 			)
 		)
 	)
+	(global_label "LCD_RES_t"
+		(shape input)
+		(at -36.83 36.83 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0eeccf34-c72b-45e0-8d9d-0e496aafe016")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at -49.6727 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "LED2"
 		(shape input)
 		(at 140.97 162.56 180)
@@ -6650,7 +6856,7 @@
 			)
 		)
 	)
-	(global_label "nRF_RS"
+	(global_label "nRF_RS_t"
 		(shape input)
 		(at 60.96 74.93 180)
 		(fields_autoplaced yes)
@@ -6662,7 +6868,7 @@
 		)
 		(uuid "13c2ef14-c7d8-429b-911b-e81251f7a83a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 51.0201 74.93 0)
+			(at 49.3268 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6976,6 +7182,50 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "LCD_DC_t"
+		(shape input)
+		(at -36.83 34.29 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "42eff4f7-108b-4c38-bcea-8772a2cf8760")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at -48.5842 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SD_CS"
+		(shape input)
+		(at -35.56 63.5 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "46d0b158-00a3-4473-a7a3-d1f2606a95e9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at -44.4718 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -7420,6 +7670,28 @@
 			)
 		)
 	)
+	(global_label "nRF_CS"
+		(shape input)
+		(at -34.29 97.79 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6ba83da2-6737-4b83-a7dc-a3a29e453544")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at -44.2299 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "LED3"
 		(shape input)
 		(at 140.97 173.99 180)
@@ -7532,7 +7804,7 @@
 	)
 	(global_label "AN_OUT"
 		(shape input)
-		(at 153.67 80.01 0)
+		(at 153.67 87.63 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7542,12 +7814,34 @@
 		)
 		(uuid "7514f45c-1205-48cc-8530-c3d5e4bdf4a7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 163.6705 80.01 0)
+			(at 163.6705 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "nRF_RS"
+		(shape input)
+		(at -34.29 95.25 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "76265c7e-3084-4b93-bc87-495c6c9e765d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at -44.2299 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -7728,9 +8022,31 @@
 			)
 		)
 	)
+	(global_label "SD_CS_t"
+		(shape input)
+		(at -35.56 71.12 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8fb24bb0-3d48-4b67-8581-79234e94624a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at -46.1651 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "EX_nRF_INT"
 		(shape input)
-		(at 60.96 77.47 180)
+		(at 60.96 80.01 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7740,7 +8056,7 @@
 		)
 		(uuid "979ed7eb-8ad1-42e9-af47-d70bf78d9372")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 47.2706 77.47 0)
+			(at 47.2706 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7926,7 +8242,7 @@
 			)
 		)
 	)
-	(global_label "LCD_RES"
+	(global_label "LCD_RES_t"
 		(shape input)
 		(at 60.96 69.85 180)
 		(fields_autoplaced yes)
@@ -7938,7 +8254,7 @@
 		)
 		(uuid "b3e2b8e4-9b7b-479e-a2ea-f7ce33f14efa")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 49.8106 69.85 0)
+			(at 48.1173 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7972,22 +8288,22 @@
 	)
 	(global_label "SW_JOY_OUT"
 		(shape input)
-		(at 60.96 80.01 180)
+		(at 152.4 80.01 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "c060775a-f2b8-485a-92d6-d4544c8ee440")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 46.3634 80.01 0)
+			(at 166.9966 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -8036,7 +8352,7 @@
 			)
 		)
 	)
-	(global_label "nRF_CS"
+	(global_label "nRF_CS_t"
 		(shape input)
 		(at 60.96 72.39 180)
 		(fields_autoplaced yes)
@@ -8048,7 +8364,7 @@
 		)
 		(uuid "c53a4375-9f3a-4278-91fc-6fb548af6a59")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 51.0201 72.39 0)
+			(at 49.3268 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8102,6 +8418,28 @@
 			)
 		)
 	)
+	(global_label "nRF_CS_t"
+		(shape input)
+		(at -34.29 85.09 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ca39243f-97f0-4f78-b5cd-8f60da85c773")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at -45.9232 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "POT_OUT"
 		(shape input)
 		(at 138.43 34.29 180)
@@ -8146,24 +8484,24 @@
 			)
 		)
 	)
-	(global_label "LCD_CS"
+	(global_label "LCD_CS_t"
 		(shape input)
-		(at 153.67 87.63 0)
+		(at 60.96 77.47 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "d3ad25f2-ae7c-41bf-b70f-c0e1427f236a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 163.6704 87.63 0)
+			(at 49.2663 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -8256,7 +8594,7 @@
 			)
 		)
 	)
-	(global_label "SD_CS"
+	(global_label "SD_CS_t"
 		(shape input)
 		(at 96.52 69.85 0)
 		(fields_autoplaced yes)
@@ -8268,7 +8606,7 @@
 		)
 		(uuid "da3bc642-fd68-4a0a-a8b6-c1e1eacccee3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 105.4318 69.85 0)
+			(at 107.1251 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8520,7 +8858,7 @@
 			)
 		)
 	)
-	(global_label "LCD_DC"
+	(global_label "LCD_DC_t"
 		(shape input)
 		(at 96.52 72.39 0)
 		(fields_autoplaced yes)
@@ -8532,7 +8870,7 @@
 		)
 		(uuid "ffff7a99-b380-4d6c-aebd-798069caa8de")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 106.5809 72.39 0)
+			(at 108.2742 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9220,6 +9558,77 @@
 		)
 	)
 	(symbol
+		(lib_name "Conn_01x02_1")
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at -29.21 85.09 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1bf7d5bb-bf8a-4ecd-94d0-975ec2731e33")
+		(property "Reference" "J10"
+			(at -26.67 85.0899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "nRF_temp1"
+			(at -26.67 87.6299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical"
+			(at -29.21 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at -29.21 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at -29.21 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "533ab559-8af2-4449-b418-a055f8d1855d")
+		)
+		(pin "1"
+			(uuid "3e199973-4fc2-44bd-b313-750e90a34e8e")
+		)
+		(instances
+			(project "Game_Board_v1"
+				(path "/321de10e-4c5a-4709-a860-0ca07d993626"
+					(reference "J10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 40.64 167.64 0)
 		(unit 1)
@@ -9572,7 +9981,7 @@
 				)
 			)
 		)
-		(property "Value" "220"
+		(property "Value" "100"
 			(at 157.48 170.18 90)
 			(effects
 				(font
@@ -9871,7 +10280,7 @@
 				)
 			)
 		)
-		(property "Value" "220"
+		(property "Value" "100"
 			(at 157.48 158.75 90)
 			(effects
 				(font
@@ -9939,7 +10348,7 @@
 				)
 			)
 		)
-		(property "Value" "220"
+		(property "Value" "100"
 			(at 157.48 147.32 90)
 			(effects
 				(font
@@ -10399,6 +10808,217 @@
 			(project "Game_Board_v1"
 				(path "/321de10e-4c5a-4709-a860-0ca07d993626"
 					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x03")
+		(at -29.21 36.83 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "438d3b9c-a197-41a4-825c-b94b189fd9b8")
+		(property "Reference" "J7"
+			(at -25.4 35.5599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "LCD_TEMp"
+			(at -25.4 38.0999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical"
+			(at -29.21 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at -29.21 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at -29.21 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1cf259c6-64fe-4e26-ae59-89a2a21965a8")
+		)
+		(pin "1"
+			(uuid "f89d8967-074b-4473-b1c7-9da268582f69")
+		)
+		(pin "3"
+			(uuid "f298c3d6-52bc-4357-b449-358fd0b4d47e")
+		)
+		(instances
+			(project "Game_Board_v1"
+				(path "/321de10e-4c5a-4709-a860-0ca07d993626"
+					(reference "J7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "Conn_01x02_1")
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at -29.21 95.25 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "456dddcc-eccd-4863-8763-9274e688bdd8")
+		(property "Reference" "J11"
+			(at -26.67 95.2499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "nRF_temp2"
+			(at -26.67 97.7899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical"
+			(at -29.21 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at -29.21 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at -29.21 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "68dd66ff-381a-446b-ab63-1b755baa128c")
+		)
+		(pin "1"
+			(uuid "376b58e3-60dd-48e5-a418-36f5d96d1c7d")
+		)
+		(instances
+			(project "Game_Board_v1"
+				(path "/321de10e-4c5a-4709-a860-0ca07d993626"
+					(reference "J11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at -30.48 63.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "47ae2345-3ea0-45c6-a9f7-e028326ec37a")
+		(property "Reference" "J8"
+			(at -26.67 62.2299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SD_CS_t1"
+			(at -26.67 64.7699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x01_P2.54mm_Vertical"
+			(at -30.48 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at -30.48 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at -30.48 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "58e8fcd8-c3ff-499e-aecf-e2bfa0237fb3")
+		)
+		(instances
+			(project "Game_Board_v1"
+				(path "/321de10e-4c5a-4709-a860-0ca07d993626"
+					(reference "J8")
 					(unit 1)
 				)
 			)
@@ -10886,6 +11506,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at -30.48 71.12 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "71d6f8ab-813e-4aa0-aaec-936f51fafab0")
+		(property "Reference" "J9"
+			(at -26.67 69.8499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SD_CS_t1"
+			(at -26.67 72.3899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x01_P2.54mm_Vertical"
+			(at -30.48 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at -30.48 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at -30.48 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ee6b42a5-8390-4d09-afab-3997e7b0b5c5")
+		)
+		(instances
+			(project "Game_Board_v1"
+				(path "/321de10e-4c5a-4709-a860-0ca07d993626"
+					(reference "J9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 180.34 74.93 0)
 		(unit 1)
@@ -10904,7 +11591,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "680"
 			(at 182.88 76.1999 0)
 			(effects
 				(font
@@ -10974,7 +11661,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "680"
 			(at 175.26 76.1999 0)
 			(effects
 				(font
@@ -12329,7 +13016,7 @@
 	(symbol
 		(lib_id "4xxx:4071")
 		(at 153.67 119.38 0)
-		(unit 3)
+		(unit 4)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -12425,7 +13112,7 @@
 			(project "Game_Board_v1"
 				(path "/321de10e-4c5a-4709-a860-0ca07d993626"
 					(reference "U2")
-					(unit 3)
+					(unit 4)
 				)
 			)
 		)
@@ -12448,7 +13135,7 @@
 				)
 			)
 		)
-		(property "Value" "220"
+		(property "Value" "100"
 			(at 157.48 181.61 90)
 			(effects
 				(font
@@ -12661,7 +13348,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "680"
 			(at 228.6 118.1099 0)
 			(effects
 				(font
