@@ -1,0 +1,417 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Amplifier_Operational:TL084 U1
+U 1 1 633FE88C
+P 3000 1650
+F 0 "U1" H 3000 2017 50  0000 C CNN
+F 1 "TL084" H 3000 1926 50  0000 C CNN
+F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 2950 1750 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tl081.pdf" H 3050 1850 50  0001 C CNN
+	1    3000 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Amplifier_Operational:TL084 U1
+U 2 1 633FFC95
+P 5200 1650
+F 0 "U1" H 5200 2017 50  0000 C CNN
+F 1 "TL084" H 5200 1926 50  0000 C CNN
+F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 5150 1750 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tl081.pdf" H 5250 1850 50  0001 C CNN
+	2    5200 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Amplifier_Operational:TL084 U1
+U 3 1 63400A98
+P 3400 3250
+F 0 "U1" H 3400 3617 50  0000 C CNN
+F 1 "TL084" H 3400 3526 50  0000 C CNN
+F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 3350 3350 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tl081.pdf" H 3450 3450 50  0001 C CNN
+	3    3400 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Amplifier_Operational:TL084 U1
+U 4 1 634016E3
+P 5600 3250
+F 0 "U1" H 5600 3617 50  0000 C CNN
+F 1 "TL084" H 5600 3526 50  0000 C CNN
+F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 5550 3350 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tl081.pdf" H 5650 3450 50  0001 C CNN
+	4    5600 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Amplifier_Operational:TL084 U1
+U 5 1 634021E9
+P 1500 3800
+F 0 "U1" H 1458 3846 50  0000 L CNN
+F 1 "TL084" H 1458 3755 50  0000 L CNN
+F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 1450 3900 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tl081.pdf" H 1550 4000 50  0001 C CNN
+	5    1500 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x18 J1
+U 1 1 6341CD59
+P 900 1850
+F 0 "J1" H 818 725 50  0000 C CNN
+F 1 "Conn_01x18" H 818 816 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x18_P2.54mm_Horizontal" H 900 1850 50  0001 C CNN
+F 3 "~" H 900 1850 50  0001 C CNN
+	1    900  1850
+	-1   0    0    1   
+$EndComp
+Text GLabel 1200 950  2    50   Input ~ 0
+3.3V
+Text GLabel 1200 1050 2    50   Input ~ 0
+5V
+$Comp
+L power:GND #PWR01
+U 1 1 6342963F
+P 1200 1150
+F 0 "#PWR01" H 1200 900 50  0001 C CNN
+F 1 "GND" V 1205 1022 50  0000 R CNN
+F 2 "" H 1200 1150 50  0001 C CNN
+F 3 "" H 1200 1150 50  0001 C CNN
+	1    1200 1150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR02
+U 1 1 63429B9D
+P 1200 1350
+F 0 "#PWR02" H 1200 1100 50  0001 C CNN
+F 1 "GND" V 1205 1222 50  0000 R CNN
+F 2 "" H 1200 1350 50  0001 C CNN
+F 3 "" H 1200 1350 50  0001 C CNN
+	1    1200 1350
+	0    -1   -1   0   
+$EndComp
+Text GLabel 1200 1250 2    50   Input ~ 0
++15V
+Text GLabel 1200 1450 2    50   Input ~ 0
+-15V
+$Comp
+L power:GND #PWR03
+U 1 1 6342A78B
+P 1200 1550
+F 0 "#PWR03" H 1200 1300 50  0001 C CNN
+F 1 "GND" V 1205 1422 50  0000 R CNN
+F 2 "" H 1200 1550 50  0001 C CNN
+F 3 "" H 1200 1550 50  0001 C CNN
+	1    1200 1550
+	0    -1   -1   0   
+$EndComp
+Text GLabel 1200 1650 2    50   Input ~ 0
+OUT4
+Text GLabel 1200 1750 2    50   Input ~ 0
+OUT3
+Text GLabel 1200 1850 2    50   Input ~ 0
+OUT2
+Text GLabel 1200 1950 2    50   Input ~ 0
+OUT1
+$Comp
+L power:GND #PWR04
+U 1 1 6342B468
+P 1200 2050
+F 0 "#PWR04" H 1200 1800 50  0001 C CNN
+F 1 "GND" V 1205 1922 50  0000 R CNN
+F 2 "" H 1200 2050 50  0001 C CNN
+F 3 "" H 1200 2050 50  0001 C CNN
+	1    1200 2050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR05
+U 1 1 6342B79D
+P 1200 2350
+F 0 "#PWR05" H 1200 2100 50  0001 C CNN
+F 1 "GND" V 1205 2222 50  0000 R CNN
+F 2 "" H 1200 2350 50  0001 C CNN
+F 3 "" H 1200 2350 50  0001 C CNN
+	1    1200 2350
+	0    -1   -1   0   
+$EndComp
+Text GLabel 1200 2250 2    50   Input ~ 0
+IN1
+Text GLabel 1200 2150 2    50   Input ~ 0
+IN2
+Wire Wire Line
+	1100 950  1200 950 
+Wire Wire Line
+	1100 1050 1200 1050
+Wire Wire Line
+	1100 1150 1200 1150
+Wire Wire Line
+	1100 1250 1200 1250
+Wire Wire Line
+	1100 1350 1200 1350
+Wire Wire Line
+	1100 1450 1200 1450
+Wire Wire Line
+	1100 1550 1200 1550
+Wire Wire Line
+	1100 1650 1200 1650
+Wire Wire Line
+	1100 1750 1200 1750
+Wire Wire Line
+	1100 1850 1200 1850
+Wire Wire Line
+	1100 1950 1200 1950
+Wire Wire Line
+	1100 2050 1200 2050
+Wire Wire Line
+	1100 2150 1200 2150
+Wire Wire Line
+	1100 2250 1200 2250
+Wire Wire Line
+	1100 2350 1200 2350
+Text GLabel 1300 3400 0    50   Input ~ 0
++15V
+Text GLabel 1300 4200 0    50   Input ~ 0
+-15V
+Wire Wire Line
+	1300 3400 1400 3400
+Wire Wire Line
+	1400 3400 1400 3500
+Wire Wire Line
+	1300 4200 1400 4200
+Wire Wire Line
+	1400 4200 1400 4100
+$Comp
+L Device:R R3
+U 1 1 6343EA96
+P 3400 3650
+F 0 "R3" V 3193 3650 50  0000 C CNN
+F 1 "10k" V 3284 3650 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 3330 3650 50  0001 C CNN
+F 3 "~" H 3400 3650 50  0001 C CNN
+	1    3400 3650
+	0    1    1    0   
+$EndComp
+Text GLabel 2500 1550 0    50   Input ~ 0
+IN1
+Text GLabel 3500 1650 2    50   Input ~ 0
+OUT1
+Text GLabel 5700 1650 2    50   Input ~ 0
+OUT2
+Text GLabel 2500 1750 0    50   Input ~ 0
+IN2
+$Comp
+L Device:R R1
+U 1 1 63443E87
+P 2600 2000
+F 0 "R1" H 2670 2046 50  0000 L CNN
+F 1 "1k" H 2670 1955 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 2530 2000 50  0001 C CNN
+F 3 "~" H 2600 2000 50  0001 C CNN
+	1    2600 2000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2500 1550 2700 1550
+Wire Wire Line
+	2600 1850 2600 1750
+Wire Wire Line
+	2500 1750 2600 1750
+Connection ~ 2600 1750
+Wire Wire Line
+	2600 1750 2700 1750
+$Comp
+L power:GND #PWR06
+U 1 1 6344C8BE
+P 2600 2250
+F 0 "#PWR06" H 2600 2000 50  0001 C CNN
+F 1 "GND" H 2605 2077 50  0000 C CNN
+F 2 "" H 2600 2250 50  0001 C CNN
+F 3 "" H 2600 2250 50  0001 C CNN
+	1    2600 2250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2600 2250 2600 2150
+Wire Notes Line
+	2200 1150 3850 1150
+Wire Notes Line
+	3850 1150 3850 2600
+Wire Notes Line
+	3850 2600 2200 2600
+Wire Notes Line
+	2200 2600 2200 1150
+Text Notes 3250 2550 0    50   ~ 0
+COMPARATEUR
+Wire Wire Line
+	4900 1750 4800 1750
+Wire Wire Line
+	4800 1750 4800 1950
+Wire Wire Line
+	4800 1950 5600 1950
+Wire Wire Line
+	5600 1950 5600 1650
+Wire Wire Line
+	5600 1650 5500 1650
+Wire Wire Line
+	3300 1650 3500 1650
+Text GLabel 4700 1550 0    50   Input ~ 0
+IN1
+Wire Notes Line
+	4400 1150 6050 1150
+Wire Notes Line
+	6050 1150 6050 2600
+Wire Notes Line
+	4400 2600 4400 1150
+Wire Wire Line
+	4700 1550 4900 1550
+Wire Wire Line
+	5600 1650 5700 1650
+Connection ~ 5600 1650
+Wire Notes Line
+	6050 2600 4400 2600
+Text Notes 5650 2550 0    50   ~ 0
+SUIVEUR
+Text GLabel 3900 3250 2    50   Input ~ 0
+OUT3
+$Comp
+L Device:R R2
+U 1 1 634AB9AC
+P 2750 3350
+F 0 "R2" V 2950 3350 50  0000 C CNN
+F 1 "1k" V 2850 3350 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 2680 3350 50  0001 C CNN
+F 3 "~" H 2750 3350 50  0001 C CNN
+	1    2750 3350
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2900 3350 3000 3350
+Wire Wire Line
+	3000 3350 3000 3650
+Wire Wire Line
+	3000 3650 3250 3650
+Connection ~ 3000 3350
+Wire Wire Line
+	3000 3350 3100 3350
+Wire Wire Line
+	3550 3650 3800 3650
+Wire Wire Line
+	3800 3650 3800 3250
+Wire Wire Line
+	3700 3250 3800 3250
+Wire Wire Line
+	3800 3250 3900 3250
+Connection ~ 3800 3250
+Text GLabel 2500 3350 0    50   Input ~ 0
+IN1
+$Comp
+L power:GND #PWR07
+U 1 1 634B3FFF
+P 3000 3150
+F 0 "#PWR07" H 3000 2900 50  0001 C CNN
+F 1 "GND" V 3005 3022 50  0000 R CNN
+F 2 "" H 3000 3150 50  0001 C CNN
+F 3 "" H 3000 3150 50  0001 C CNN
+	1    3000 3150
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2500 3350 2600 3350
+Wire Wire Line
+	3000 3150 3100 3150
+Wire Notes Line
+	2200 2750 4250 2750
+Wire Notes Line
+	4250 2750 4250 4000
+Wire Notes Line
+	4250 4000 2200 4000
+Wire Notes Line
+	2200 4000 2200 2750
+Text Notes 3100 3950 0    50   ~ 0
+AMPLI INVERSEUR / G = 10\n
+$Comp
+L Device:R R5
+U 1 1 634D016C
+P 5600 3650
+F 0 "R5" V 5393 3650 50  0000 C CNN
+F 1 "100k" V 5484 3650 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 5530 3650 50  0001 C CNN
+F 3 "~" H 5600 3650 50  0001 C CNN
+	1    5600 3650
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R4
+U 1 1 634D18EE
+P 4950 3350
+F 0 "R4" V 5150 3350 50  0000 C CNN
+F 1 "1k" V 5050 3350 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 4880 3350 50  0001 C CNN
+F 3 "~" H 4950 3350 50  0001 C CNN
+	1    4950 3350
+	0    1    1    0   
+$EndComp
+Text GLabel 4700 3350 0    50   Input ~ 0
+IN1
+Text GLabel 6100 3250 2    50   Input ~ 0
+OUT4
+Wire Wire Line
+	5450 3650 5200 3650
+Wire Wire Line
+	5200 3650 5200 3350
+Wire Wire Line
+	5200 3350 5100 3350
+Wire Wire Line
+	5200 3350 5300 3350
+Connection ~ 5200 3350
+Wire Wire Line
+	5900 3250 6000 3250
+Wire Wire Line
+	6000 3250 6000 3650
+Wire Wire Line
+	6000 3650 5750 3650
+Wire Wire Line
+	6000 3250 6100 3250
+Connection ~ 6000 3250
+Wire Wire Line
+	4700 3350 4800 3350
+$Comp
+L power:GND #PWR08
+U 1 1 634D9CDE
+P 5200 3150
+F 0 "#PWR08" H 5200 2900 50  0001 C CNN
+F 1 "GND" V 5205 3022 50  0000 R CNN
+F 2 "" H 5200 3150 50  0001 C CNN
+F 3 "" H 5200 3150 50  0001 C CNN
+	1    5200 3150
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5200 3150 5300 3150
+Text Notes 5200 3900 0    50   ~ 0
+AMPLI INVERSEUR / G = 100\n
+Wire Notes Line
+	4400 2750 6450 2750
+Wire Notes Line
+	6450 2750 6450 4000
+Wire Notes Line
+	4400 4000 4400 2750
+Wire Notes Line
+	6450 4000 4400 4000
+$EndSCHEMATC

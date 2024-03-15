@@ -10689,7 +10689,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Conn_01x04"
+		(property "Value" "I2C_EXT"
 			(at 191.77 49.5299 0)
 			(effects
 				(font
