@@ -1,0 +1,2 @@
+//
+Prévoir sorties pour visualisation SDA, SCL et SCL, MISO sur oscilloscope
