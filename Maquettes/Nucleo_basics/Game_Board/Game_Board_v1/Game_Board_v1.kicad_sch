@@ -8288,7 +8288,7 @@
 	)
 	(global_label "SW_JOY_OUT"
 		(shape input)
-		(at 152.4 80.01 0)
+		(at 153.67 80.01 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8298,7 +8298,7 @@
 		)
 		(uuid "c060775a-f2b8-485a-92d6-d4544c8ee440")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 166.9966 80.01 0)
+			(at 168.2666 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
