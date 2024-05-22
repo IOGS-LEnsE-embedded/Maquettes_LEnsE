@@ -484,7 +484,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "gerber/",
+      "plot": "Game_Board_v1_gerber/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
