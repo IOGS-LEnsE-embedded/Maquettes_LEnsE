@@ -930,7 +930,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "VisionIndustrielle_TP.net",
-      "plot": "",
+      "plot": "remote_board_gerber/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
