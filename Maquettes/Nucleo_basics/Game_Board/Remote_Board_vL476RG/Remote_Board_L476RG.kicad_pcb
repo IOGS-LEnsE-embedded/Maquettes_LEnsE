@@ -68,7 +68,7 @@
 			(mirror no)
 			(drillshape 0)
 			(scaleselection 1)
-			(outputdirectory "remote_board_gerber/")
+			(outputdirectory "remote_gerber")
 		)
 	)
 	(net 0 "")

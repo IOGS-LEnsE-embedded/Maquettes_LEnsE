@@ -68,7 +68,7 @@
 			(mirror no)
 			(drillshape 0)
 			(scaleselection 1)
-			(outputdirectory "remote_board_gerber/")
+			(outputdirectory "robot_gerber/")
 		)
 	)
 	(net 0 "")
@@ -419,7 +419,7 @@
 			(uuid "d17e6c87-f9bf-48cf-942f-746a3f3210ad")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 1.27 24.13 270)
+			(at 1.27 24.13 -90)
 			(layer "F.Fab")
 			(uuid "54abd08d-5d32-4078-bb66-f06c0e69ad91")
 			(effects
@@ -1581,7 +1581,7 @@
 		(descr "Through hole angled socket strip, 1x03, 2.54mm pitch, 8.51mm socket length, single row (from Kicad 4.0.7), script generated")
 		(tags "Through hole angled socket strip THT 1x03 2.54mm single row")
 		(property "Reference" "J3"
-			(at 2.6 5.8 180)
+			(at 2.6 2.8 180)
 			(layer "F.SilkS")
 			(uuid "40f57716-04cd-4e8a-941c-2a68d6dddba8")
 			(effects
@@ -2508,7 +2508,7 @@
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "R2"
-			(at 12.8 -0.1 270)
+			(at 12.8 -0.1 -90)
 			(layer "F.SilkS")
 			(uuid "b5b880b0-0e26-4907-81c1-094d39d7d633")
 			(effects
@@ -2519,7 +2519,7 @@
 			)
 		)
 		(property "Value" "8.2k"
-			(at 5.08 2.37 270)
+			(at 5.08 2.37 -90)
 			(layer "F.Fab")
 			(uuid "f3b75762-c3ff-443c-a264-e914e47ce1b1")
 			(effects
@@ -2731,7 +2731,7 @@
 			(uuid "55c25620-5f87-4cc5-9dc3-f7227bc7983a")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 5.08 0 270)
+			(at 5.08 0 -90)
 			(layer "F.Fab")
 			(uuid "08a97fcd-16fa-4b29-9a4d-78210e90aab3")
 			(effects
@@ -2791,7 +2791,7 @@
 			)
 		)
 		(property "Value" "LED_4"
-			(at 0 10.39 270)
+			(at 0 10.39 -90)
 			(layer "F.Fab")
 			(uuid "cab3f83e-5cd1-4c5c-a7b4-ba9aa50dda11")
 			(effects
@@ -2993,7 +2993,7 @@
 			(uuid "8a435b16-6f31-431e-a907-6bf4b84950ba")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 3.81 360)
+			(at 0 3.81 0)
 			(layer "F.Fab")
 			(uuid "6847dbe3-6203-46fb-a346-f76a71c0b587")
 			(effects
@@ -4279,7 +4279,7 @@
 		(descr "IR-LED, diameter 3.0mm, 2 pins, color: clear")
 		(tags "IR infrared LED diameter 3.0mm 2 pins clear")
 		(property "Reference" "D1"
-			(at 1.27 -2.96 360)
+			(at 1.27 -2.96 0)
 			(layer "F.SilkS")
 			(uuid "fa377166-2ae2-4c29-a9ff-542c4a471432")
 			(effects
@@ -4290,7 +4290,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 1.27 2.96 360)
+			(at 1.27 2.96 0)
 			(layer "F.Fab")
 			(uuid "6a93975f-a6f0-4870-8fa9-103acbfbd868")
 			(effects
@@ -4478,7 +4478,7 @@
 			(uuid "478ee299-c93a-41b2-9175-440ad71f71f6")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 1.47 0 360)
+			(at 1.47 0 0)
 			(layer "F.Fab")
 			(uuid "a97e5798-2dc3-49d7-8ff1-b4e009617503")
 			(effects
@@ -4803,7 +4803,7 @@
 		(uuid "219a391e-e2b9-47c4-889d-ccc9e0820666")
 		(at 130.4 113.5)
 		(property "Reference" "SW1"
-			(at -0.099999 -0.599999 180)
+			(at 0.2 -0.7 0)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "895a4fdf-977e-4483-bc2d-193834f2f112")
@@ -4922,7 +4922,7 @@
 		(descr "TO-92 leads in-line, narrow, oval pads, drill 0.75mm (see NXP sot054_po.pdf)")
 		(tags "to-92 sc-43 sc-43a sot54 PA33 transistor")
 		(property "Reference" "U1"
-			(at 1.27 -3.56 360)
+			(at 1.27 -3.56 0)
 			(layer "F.SilkS")
 			(uuid "21cce7ff-748d-4cc8-8325-7224597da97f")
 			(effects
@@ -4933,7 +4933,7 @@
 			)
 		)
 		(property "Value" "MCP9700-Temp"
-			(at 1.27 2.79 360)
+			(at 1.27 2.79 0)
 			(layer "F.Fab")
 			(uuid "4a202373-c078-47fd-ae7e-bed764dda665")
 			(effects
@@ -5089,7 +5089,7 @@
 			(uuid "c4a0104a-b21e-4e68-b62a-d52df43f2596")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 1.27 0 360)
+			(at 1.27 0 0)
 			(layer "F.Fab")
 			(uuid "41a295f7-78df-46f3-b508-0834bf259666")
 			(effects
@@ -5423,7 +5423,7 @@
 		(descr "CP, Radial series, Radial, pin pitch=2.50mm, , diameter=6.3mm, Electrolytic Capacitor")
 		(tags "CP Radial series Radial pin pitch 2.50mm  diameter 6.3mm Electrolytic Capacitor")
 		(property "Reference" "C3"
-			(at 6.18238 0.082378 360)
+			(at 6.18238 0.082378 0)
 			(layer "F.SilkS")
 			(uuid "61c1ed32-e5bd-41ee-8572-28ecc1673a35")
 			(effects
@@ -5434,7 +5434,7 @@
 			)
 		)
 		(property "Value" "C_Polarized"
-			(at 1.25 4.4 360)
+			(at 1.25 4.4 0)
 			(layer "F.Fab")
 			(uuid "4165890a-eeae-42d1-9f06-ede135114ddd")
 			(effects
@@ -6899,7 +6899,7 @@
 			(uuid "95fa6610-6193-402b-ba41-f4e3492d44b7")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 1.25 0 360)
+			(at 1.25 0 0)
 			(layer "F.Fab")
 			(uuid "13ad7c07-35fd-4257-8074-ce64d1ad7d2c")
 			(effects
@@ -7220,7 +7220,7 @@
 		(descr "TO-220-5, Vertical, RM 1.7mm, Pentawatt, Multiwatt-5, see http://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/ltc-legacy-to-220/to-220_5_05-08-1421_straight_lead.pdf")
 		(tags "TO-220-5 Vertical RM 1.7mm Pentawatt Multiwatt-5")
 		(property "Reference" "J9"
-			(at -3.3 0 360)
+			(at -3.3 0 0)
 			(layer "F.SilkS")
 			(uuid "93806e5f-d67d-4078-b299-7ec2e69f34a2")
 			(effects
@@ -7231,7 +7231,7 @@
 			)
 		)
 		(property "Value" "TC74A2-TempI2C"
-			(at 3.4 2.5 360)
+			(at 3.4 2.5 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "b530992d-f037-499b-9597-639d49acfb76")
@@ -7464,7 +7464,7 @@
 			(uuid "58ecbd12-bcb9-4580-89f6-7eef15d6d18b")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 3.4 -4.27 360)
+			(at 3.4 -4.27 0)
 			(layer "F.Fab")
 			(uuid "85170c0a-9855-4285-9b35-e66b26083f1c")
 			(effects
@@ -8667,7 +8667,7 @@
 		(descr "C, Rect series, Radial, pin pitch=5.00mm, , length*width=7*3.5mm^2, Capacitor")
 		(tags "C Rect series Radial pin pitch 5.00mm  length 7mm width 3.5mm Capacitor")
 		(property "Reference" "C1"
-			(at 2.5 -3 360)
+			(at 2.5 -3 0)
 			(layer "F.SilkS")
 			(uuid "8d7c6222-63b1-4e5c-b2ad-1cfc4af07f2a")
 			(effects
@@ -8678,7 +8678,7 @@
 			)
 		)
 		(property "Value" "10nF"
-			(at 2.5 3 360)
+			(at 2.5 3 0)
 			(layer "F.Fab")
 			(uuid "8c4c0758-5048-4c13-bfa5-77394c07d3d0")
 			(effects
@@ -8850,7 +8850,7 @@
 			(uuid "e347d39e-8b16-4a00-986f-3dad1127e900")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 2.5 0 360)
+			(at 2.5 0 0)
 			(layer "F.Fab")
 			(uuid "6f700569-4f78-4dd8-b8b1-6cdcdd68f315")
 			(effects
@@ -9803,7 +9803,7 @@
 		(descr "C, Rect series, Radial, pin pitch=5.00mm, , length*width=7*3.5mm^2, Capacitor")
 		(tags "C Rect series Radial pin pitch 5.00mm  length 7mm width 3.5mm Capacitor")
 		(property "Reference" "C2"
-			(at 2.5 -3 360)
+			(at 2.5 -3 0)
 			(layer "F.SilkS")
 			(uuid "15f2bf1d-19ce-4c1f-aea6-de7d34211b7d")
 			(effects
@@ -9814,7 +9814,7 @@
 			)
 		)
 		(property "Value" "10nF"
-			(at 2.5 3 360)
+			(at 2.5 3 0)
 			(layer "F.Fab")
 			(uuid "ac525179-7731-43eb-affe-3eefd9831143")
 			(effects
@@ -9986,7 +9986,7 @@
 			(uuid "05cc223e-635a-42e8-aa0a-671fdc9e1287")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 2.5 0 360)
+			(at 2.5 0 0)
 			(layer "F.Fab")
 			(uuid "9eb4e949-69e1-415c-b482-05b6e125cdcb")
 			(effects
@@ -10248,7 +10248,7 @@
 			(uuid "0d8c1cc7-8cd2-4181-80e5-8e9ace8c5954")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 6.35 270)
+			(at 0 6.35 -90)
 			(layer "F.Fab")
 			(uuid "d8dd8f56-1002-4d1c-bb9a-a48a501edd47")
 			(effects
@@ -11258,7 +11258,7 @@
 			)
 		)
 		(property "Value" "LED_3"
-			(at 0 10.39 270)
+			(at 0 10.39 -90)
 			(layer "F.Fab")
 			(uuid "50024bbe-a92d-491f-963c-a92daf6c831f")
 			(effects
@@ -11460,7 +11460,7 @@
 			(uuid "99e0f85a-1deb-4d7f-a5dd-f564b66ccf9f")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 3.81 360)
+			(at 0 3.81 0)
 			(layer "F.Fab")
 			(uuid "ef678944-964a-47ec-be4d-40200236da3d")
 			(effects
@@ -11544,7 +11544,7 @@
 			)
 		)
 		(property "Value" "MOT_R"
-			(at 2.54 6.36 360)
+			(at 2.54 6.36 0)
 			(layer "F.Fab")
 			(uuid "47384838-4565-43bd-bfcb-f3bb0b3b2b51")
 			(effects
@@ -11970,7 +11970,7 @@
 			(uuid "a0c47f8c-b46c-4d9e-9951-18e0db139336")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 2.54 3.1 360)
+			(at 2.54 3.1 0)
 			(layer "F.Fab")
 			(uuid "a1975f21-7b87-4ad5-abbf-03b515c24a08")
 			(effects
@@ -13651,7 +13651,7 @@
 		(uuid "b363b923-81dd-4f9c-be86-41d1b4476e99")
 		(at 130.45 105.15)
 		(property "Reference" "SW2"
-			(at -0.149999 -8.749999 180)
+			(at -0.05 -8.55 0)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "44f7815a-04b2-46af-a8e8-e0169bfcb5e7")
@@ -14808,7 +14808,7 @@
 		(descr "Through hole angled socket strip, 1x03, 2.54mm pitch, 8.51mm socket length, single row (from Kicad 4.0.7), script generated")
 		(tags "Through hole angled socket strip THT 1x03 2.54mm single row")
 		(property "Reference" "J5"
-			(at 2.6 5.6 180)
+			(at 4.5 2.8 180)
 			(layer "F.SilkS")
 			(uuid "0f6d8b2e-93eb-46db-8f40-c4a160a4ee8c")
 			(effects
@@ -16129,7 +16129,7 @@
 			)
 		)
 		(property "Value" "MOT_L"
-			(at 2.54 6.36 360)
+			(at 2.54 6.36 0)
 			(layer "F.Fab")
 			(uuid "421b48c5-463e-49b4-9bd3-d414c72d8501")
 			(effects
@@ -16555,7 +16555,7 @@
 			(uuid "fd905462-e38a-45a4-be10-ebe7e7f36c6b")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 2.54 3.1 360)
+			(at 2.54 3.1 0)
 			(layer "F.Fab")
 			(uuid "b18fa80f-6b40-4f14-812b-fdec400a56ae")
 			(effects
@@ -18328,7 +18328,7 @@
 		(descr "Through hole angled socket strip, 1x03, 2.54mm pitch, 8.51mm socket length, single row (from Kicad 4.0.7), script generated")
 		(tags "Through hole angled socket strip THT 1x03 2.54mm single row")
 		(property "Reference" "J4"
-			(at 2.6 5.6 180)
+			(at 2.7 2.7 180)
 			(layer "F.SilkS")
 			(uuid "334240f0-6300-49c9-b13f-0b614374ed9e")
 			(effects
@@ -18983,7 +18983,7 @@
 		(descr "TO-220-3, Vertical, RM 2.54mm, see https://www.vishay.com/docs/66542/to-220-1.pdf")
 		(tags "TO-220-3 Vertical RM 2.54mm")
 		(property "Reference" "U2"
-			(at 10.14 0.245 360)
+			(at 10.14 0.245 0)
 			(layer "B.SilkS")
 			(uuid "36011124-bb1d-485b-be4f-d0f520bf5b87")
 			(effects
@@ -18995,7 +18995,7 @@
 			)
 		)
 		(property "Value" "LM7805_TO220"
-			(at 2.54 -2.5 360)
+			(at 2.54 -2.5 0)
 			(layer "B.Fab")
 			(uuid "b3bb0dca-f274-442e-b03c-03990e1f02f3")
 			(effects
@@ -19231,7 +19231,7 @@
 			(uuid "0955f2de-3624-4736-869d-19dad7bcd6aa")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 2.54 4.27 360)
+			(at 2.54 4.27 0)
 			(layer "B.Fab")
 			(uuid "3c688fd7-d372-41ea-8f1f-cefac4a26fde")
 			(effects
@@ -19337,16 +19337,6 @@
 		(layer "F.SilkS")
 		(uuid "b388ddb4-a706-4ee3-a898-35ed73af4cfd")
 	)
-	(gr_line
-		(start 183.5 164.35)
-		(end 183.5 149.5)
-		(stroke
-			(width 0.05)
-			(type default)
-		)
-		(layer "F.SilkS")
-		(uuid "be3820b1-0738-43a8-b3e0-211c77d67bb8")
-	)
 	(gr_rect
 		(start 123.5 40.5)
 		(end 243.5 150.5)
@@ -19448,18 +19438,6 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "OUT"
-		(at 176.375 106.5 -90)
-		(layer "F.SilkS")
-		(uuid "051c071e-6762-4df6-ab70-09f7f7a467e6")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-			(justify left bottom)
-		)
-	)
 	(gr_text "SCL"
 		(at 137.4 125.2 90)
 		(layer "F.SilkS")
@@ -19496,30 +19474,6 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "GND"
-		(at 178.824441 106.452941 -90)
-		(layer "F.SilkS")
-		(uuid "0f7d90e1-8909-4d63-b3db-066a8ac5981a")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-			(justify left bottom)
-		)
-	)
-	(gr_text "nRF-S/T"
-		(at 176.3 65.5 0)
-		(layer "F.SilkS")
-		(uuid "18824e04-c961-4636-943a-a14d7950f125")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-			(justify left bottom)
-		)
-	)
 	(gr_text "US_Sensor"
 		(at 191 45.2 0)
 		(layer "F.SilkS")
@@ -19546,7 +19500,7 @@
 		)
 	)
 	(gr_text "GND"
-		(at 191.1 119.4 90)
+		(at 191.2 118 90)
 		(layer "F.SilkS")
 		(uuid "2a4a8a89-7906-4be6-bd20-413247e80dee")
 		(effects
@@ -19561,18 +19515,6 @@
 		(at 235.8 90.8 0)
 		(layer "F.SilkS")
 		(uuid "328d0c20-b32f-448b-9c2e-2c7ecb9ff633")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-			(justify left bottom)
-		)
-	)
-	(gr_text "GND"
-		(at 189.675 106.6 -90)
-		(layer "F.SilkS")
-		(uuid "38735357-02fa-463e-961d-d38b57a825ad")
 		(effects
 			(font
 				(size 1 1)
@@ -19666,7 +19608,7 @@
 		)
 	)
 	(gr_text "GND"
-		(at 171.4 119.4 90)
+		(at 171.6 118 90)
 		(layer "F.SilkS")
 		(uuid "7b4b47a9-a3cf-40e1-8341-77691f86ba1c")
 		(effects
@@ -19702,7 +19644,7 @@
 		)
 	)
 	(gr_text "GND"
-		(at 181.2 119.4 90)
+		(at 181.4 118 90)
 		(layer "F.SilkS")
 		(uuid "89abb97e-7eda-4f2b-a9cf-c04aa0d3d84c")
 		(effects
@@ -19917,16 +19859,16 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "OUT"
-		(at 187.225559 106.647059 -90)
+	(gr_text "Robot Joy-It Board\nLEnsE / 2024"
+		(at 164.6 55 0)
 		(layer "F.SilkS")
-		(uuid "f1995711-227d-49a0-b2c5-78b7737043bd")
+		(uuid "f813b039-88e8-4506-aae3-b95189067fdc")
 		(effects
 			(font
-				(size 1 1)
-				(thickness 0.15)
+				(size 1.5 1.5)
+				(thickness 0.2)
 			)
-			(justify left bottom)
+			(justify bottom)
 		)
 	)
 	(gr_text "${REFERENCE}"
