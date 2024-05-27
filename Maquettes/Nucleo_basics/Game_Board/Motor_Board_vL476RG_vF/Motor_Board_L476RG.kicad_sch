@@ -6205,6 +6205,16 @@
 	)
 	(wire
 		(pts
+			(xy 96.52 81.28) (xy 99.06 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e58d29af-b606-4510-8180-ab8370431815")
+	)
+	(wire
+		(pts
 			(xy 90.17 130.81) (xy 90.17 133.35)
 		)
 		(stroke
@@ -6242,16 +6252,6 @@
 			(type default)
 		)
 		(uuid "ebc386b4-48e5-4e48-8bc8-e1990c2e8195")
-	)
-	(wire
-		(pts
-			(xy 96.52 86.36) (xy 99.06 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ecb5dc94-8d9c-4e69-9bef-8a9cd55b3c6e")
 	)
 	(wire
 		(pts
@@ -6673,6 +6673,16 @@
 		)
 		(uuid "b74ac5a0-26e9-4d0d-870f-b9f2a57c4e63")
 	)
+	(text "PB_7"
+		(exclude_from_sim no)
+		(at 83.058 81.534 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "b8f513c2-45c7-4fd2-991a-655bb178f8d6")
+	)
 	(text "Nucleo BOARD"
 		(exclude_from_sim no)
 		(at 156.21 48.26 0)
@@ -6906,7 +6916,7 @@
 	)
 	(global_label "Servo"
 		(shape input)
-		(at 96.52 86.36 180)
+		(at 96.52 81.28 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6915,7 +6925,7 @@
 		)
 		(uuid "11008646-08dc-464c-819a-db9ae7b71931")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 96.52 86.36 0)
+			(at 96.52 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7126,7 +7136,7 @@
 	)
 	(global_label "MOT_R_2"
 		(shape input)
-		(at 114.3 99.06 0)
+		(at 114.3 91.44 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7135,7 +7145,7 @@
 		)
 		(uuid "1e92f5eb-a57f-4726-9c2e-90f25756cf9a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 114.3 99.06 0)
+			(at 114.3 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8294,7 +8304,7 @@
 	)
 	(global_label "MOT_R_1"
 		(shape input)
-		(at 114.3 96.52 0)
+		(at 114.3 88.9 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8303,7 +8313,7 @@
 		)
 		(uuid "b38e6794-8c37-40e1-85b1-7f4eee527725")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 114.3 96.52 0)
+			(at 114.3 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
