@@ -1,12 +1,12 @@
 %TF.GenerationSoftware,KiCad,Pcbnew,8.0.2*%
-%TF.CreationDate,2024-05-27T11:22:32+02:00*%
+%TF.CreationDate,2024-05-28T15:51:09+02:00*%
 %TF.ProjectId,Remote_Board_L476RG,52656d6f-7465-45f4-926f-6172645f4c34,rev?*%
 %TF.SameCoordinates,Original*%
 %TF.FileFunction,Copper,L1,Top*%
 %TF.FilePolarity,Positive*%
 %FSLAX46Y46*%
 G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
-G04 Created by KiCad (PCBNEW 8.0.2) date 2024-05-27 11:22:32*
+G04 Created by KiCad (PCBNEW 8.0.2) date 2024-05-28 15:51:09*
 %MOMM*%
 %LPD*%
 G01*
@@ -108,19 +108,19 @@ X217200000Y-126520000D03*
 %TO.N,unconnected-(J5-Pin_14-Pad14)*%
 X214660000Y-126520000D03*
 %TO.P,J5,15,Pin_15*%
-%TO.N,nRF_INT*%
+%TO.N,unconnected-(J5-Pin_15-Pad15)*%
 X217200000Y-123980000D03*
 %TO.P,J5,16,Pin_16*%
 %TO.N,unconnected-(J5-Pin_16-Pad16)*%
 X214660000Y-123980000D03*
 %TO.P,J5,17,Pin_17*%
-%TO.N,nRF_CE*%
+%TO.N,nRF_INT*%
 X217200000Y-121440000D03*
 %TO.P,J5,18,Pin_18*%
 %TO.N,3.3V_NUC*%
 X214660000Y-121440000D03*
 %TO.P,J5,19,Pin_19*%
-%TO.N,nRF_CS*%
+%TO.N,nRF_CE*%
 X217200000Y-118900000D03*
 %TO.P,J5,20,Pin_20*%
 %TO.N,5V_NUC*%
@@ -131,7 +131,7 @@ X217200000Y-116360000D03*
 %TO.P,J5,22,Pin_22*%
 X214660000Y-116360000D03*
 %TO.P,J5,23,Pin_23*%
-%TO.N,unconnected-(J5-Pin_23-Pad23)*%
+%TO.N,nRF_CS*%
 X217200000Y-113820000D03*
 %TO.P,J5,24,Pin_24*%
 %TO.N,GND*%
