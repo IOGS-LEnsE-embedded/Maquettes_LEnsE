@@ -16291,7 +16291,7 @@
 		(descr "IR-LED, diameter 3.0mm, 2 pins, color: clear")
 		(tags "IR infrared LED diameter 3.0mm 2 pins clear")
 		(property "Reference" "D2"
-			(at 1.27 -2.96 90)
+			(at -2.66 0 90)
 			(layer "F.SilkS")
 			(uuid "e1d58bf4-4e52-44d3-9a42-051960fc2ac3")
 			(effects
@@ -18511,7 +18511,7 @@
 	(footprint "LEnsE:Logo_Small"
 		(layer "F.Cu")
 		(uuid "f7c3163e-d33f-413d-bbea-12438232fdaf")
-		(at 201.2 55.25)
+		(at 146.021679 46.645746)
 		(property "Reference" "G***"
 			(at 0 0 0)
 			(layer "F.SilkS")
