@@ -19190,6 +19190,18 @@
 			(justify left bottom)
 		)
 	)
+	(gr_text "00h IODIR\n01h IPOL\n02h GPINTEN\n03h DEFVAL\n04h INTCON\n05h IOCON\n06h GPPU\n07h INTF\n08h INTCAP (Read-only)\n09h GPIO\n0Ah OLAT"
+		(at 80.05 118.95 0)
+		(layer "F.SilkS")
+		(uuid "159ff6a2-39d3-4846-b92f-9c719390de54")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
 	(gr_text "GND"
 		(at 243.381714 47.189714 90)
 		(layer "F.SilkS")
@@ -19266,6 +19278,18 @@
 			(justify left bottom)
 		)
 	)
+	(gr_text "MCP23008 / ADD = 0x20"
+		(at 77.6 99.6 0)
+		(layer "F.SilkS")
+		(uuid "570f2dee-d0db-4bbf-a27c-4c5b0d03617f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
 	(gr_text "7"
 		(at 176.2 78.6 0)
 		(layer "F.SilkS")
@@ -19275,6 +19299,18 @@
 				(size 1.5 1.5)
 				(thickness 0.3)
 				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "X"
+		(at 158.4 142.45 0)
+		(layer "F.SilkS")
+		(uuid "59330f7d-8da8-4e00-abd2-7074d0afa79e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
 			)
 			(justify left bottom)
 		)
@@ -19305,6 +19341,18 @@
 			(justify left bottom)
 		)
 	)
+	(gr_text "X"
+		(at 219.8 142.4 0)
+		(layer "F.SilkS")
+		(uuid "7ca89c0b-0bee-4f2b-98aa-e411a8447d5a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
 	(gr_text "GND"
 		(at 176.1 147.4 90)
 		(layer "F.SilkS")
@@ -19326,6 +19374,18 @@
 				(size 1.5 1.5)
 				(thickness 0.3)
 				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "MCP23008 / ADD = 0x20"
+		(at 119 96.8 0)
+		(layer "F.SilkS")
+		(uuid "927c26c1-c29f-4cc4-91b9-bab2f3683b75")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
 			)
 			(justify left bottom)
 		)
@@ -19392,6 +19452,18 @@
 			(justify left bottom)
 		)
 	)
+	(gr_text "nRF S/T module"
+		(at 218.85 34.4 0)
+		(layer "F.SilkS")
+		(uuid "b4165c82-5a77-4e57-a020-eb34ea77841e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
 	(gr_text "5V"
 		(at 173.4 147 90)
 		(layer "F.SilkS")
@@ -19425,6 +19497,18 @@
 				(size 1.5 1.5)
 				(thickness 0.3)
 				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "X"
+		(at 210.95 142.45 0)
+		(layer "F.SilkS")
+		(uuid "d86af12e-02e6-475a-916e-46258ec777a6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
 			)
 			(justify left bottom)
 		)

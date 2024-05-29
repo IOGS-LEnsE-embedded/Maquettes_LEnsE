@@ -6880,6 +6880,26 @@
 			)
 		)
 	)
+	(global_label "5V"
+		(shape input)
+		(at 57.15 45.72 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0536a54b-f850-43b8-b022-5fe1d7fcd0f7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 57.15 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "Speed_R"
 		(shape input)
 		(at 26.67 57.15 0)
@@ -8660,26 +8680,6 @@
 		(uuid "d42f3203-91ab-43db-9941-953397644042")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 140.97 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "3.3V_NUC"
-		(shape input)
-		(at 57.15 45.72 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "daf618fc-2a73-46ce-b63d-681241e3b10d")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 57.15 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
