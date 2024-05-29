@@ -4442,6 +4442,12 @@
 		(uuid "ddacf6de-efc3-4d4d-ab0e-b0e1c76adf5e")
 	)
 	(junction
+		(at 158.75 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ea50f67c-6f71-4109-9d89-5eeb871126ee")
+	)
+	(junction
 		(at 39.37 177.8)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5265,6 +5271,16 @@
 	)
 	(wire
 		(pts
+			(xy 193.04 38.1) (xy 195.58 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "57b144b9-7f01-4b64-9734-83bc714f07b5")
+	)
+	(wire
+		(pts
 			(xy 110.49 158.75) (xy 113.03 158.75)
 		)
 		(stroke
@@ -5372,6 +5388,16 @@
 			(type default)
 		)
 		(uuid "6c4f5c7f-0732-4d16-8dc3-38802645cf74")
+	)
+	(wire
+		(pts
+			(xy 182.88 38.1) (xy 185.42 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6da49b12-0eb3-46e1-85bd-e74eaadee26a")
 	)
 	(wire
 		(pts
@@ -5502,6 +5528,16 @@
 			(type default)
 		)
 		(uuid "7ef9c7f0-76c7-498d-8944-9f99a4231b03")
+	)
+	(wire
+		(pts
+			(xy 158.75 93.98) (xy 158.75 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7fba0305-26c1-4994-b24c-c9ffc774d866")
 	)
 	(wire
 		(pts
@@ -6125,6 +6161,16 @@
 	)
 	(wire
 		(pts
+			(xy 203.2 38.1) (xy 205.74 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d5e7007b-b8e2-4be7-8dc3-ce3081ade774")
+	)
+	(wire
+		(pts
 			(xy 219.71 106.68) (xy 222.25 106.68)
 		)
 		(stroke
@@ -6232,6 +6278,16 @@
 			(type default)
 		)
 		(uuid "e915a5ac-05af-4589-8a9e-41720dd431f7")
+	)
+	(wire
+		(pts
+			(xy 162.56 93.98) (xy 158.75 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e97ebe4e-4481-4018-8370-a4d3cdb0cb69")
 	)
 	(wire
 		(pts
@@ -6856,6 +6912,26 @@
 		(uuid "0616afe5-f6ec-4edc-b603-0d1b9fa235de")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 96.52 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "LED_OUT2"
+		(shape input)
+		(at 162.56 93.98 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "068ad7ae-6966-4a60-9a27-b0ee6074c8ba")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 162.56 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8924,6 +9000,26 @@
 		(uuid "f89c98d3-a3e8-4253-adbb-ce7abf924fa6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 219.71 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "LED_OUT2"
+		(shape input)
+		(at 205.74 38.1 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f933a886-a3be-4200-ad74-8387105f6432")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 205.74 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11088,6 +11184,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:LED")
+		(at 189.23 38.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "29d30306-6cec-4e01-9103-d6550058c409")
+		(property "Reference" "D2"
+			(at 187.6425 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED"
+			(at 187.6425 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_THT:LED_D3.0mm_Clear"
+			(at 189.23 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 189.23 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 189.23 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9f14e495-f9eb-4c63-ab91-90142f808072")
+		)
+		(pin "2"
+			(uuid "32c2cf40-4d49-40db-9be5-4c6a630ae464")
+		)
+		(instances
+			(project "Motor_Board_L476RG"
+				(path "/44ad8000-4ee7-4966-8fe6-195894dfb602"
+					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 39.37 184.15 0)
 		(unit 1)
@@ -11973,6 +12137,74 @@
 			(project "Motor_Board_L476RG"
 				(path "/44ad8000-4ee7-4966-8fe6-195894dfb602"
 					(reference "J12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 199.39 38.1 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "66464b73-beb6-431d-b768-4ee400085201")
+		(property "Reference" "R8"
+			(at 199.39 31.75 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100"
+			(at 199.39 34.29 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+			(at 199.39 39.878 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 199.39 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 199.39 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "898eb0db-8239-4e9b-99c7-8252e58a5915")
+		)
+		(pin "2"
+			(uuid "da5a855a-5cb7-4d31-99d8-7a756fd682e5")
+		)
+		(instances
+			(project "Motor_Board_L476RG"
+				(path "/44ad8000-4ee7-4966-8fe6-195894dfb602"
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -13679,6 +13911,72 @@
 			(project "Motor_Board_L476RG"
 				(path "/44ad8000-4ee7-4966-8fe6-195894dfb602"
 					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 182.88 38.1 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e2d5b96f-6ea2-4514-8c93-871e38c4e98e")
+		(property "Reference" "#PWR034"
+			(at 176.53 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 179.6288 38.227 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 182.88 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 182.88 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 182.88 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7df4f93d-9ef8-4c3e-8260-b181930e074a")
+		)
+		(instances
+			(project "Motor_Board_L476RG"
+				(path "/44ad8000-4ee7-4966-8fe6-195894dfb602"
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
