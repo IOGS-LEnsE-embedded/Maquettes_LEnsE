@@ -1,5 +1,7 @@
 # Tests réalisés par Julien VILLEMEJANE
 
+PCB CHANGED !!
+
 ## Systèmes
 ===========
 
@@ -7,14 +9,14 @@
 + SWs : OK (Interrupt)
 + HeadLights (WS2812) : OK (with PixelArray and WS2812 libraries)
 + Potentiometer : OK (with onboard LED in PWM Mode)
-- Motors : 
++ Motors : OK with enable and PWM
 - Comm nRF24 :
 - Temp Num
 - Temp Analog
 - US Sensor
 - Line Detector
 - Speed Encoder
-
+- StandAlone (external power)
 
 
 ## 23/08/2024
