@@ -1,21 +1,21 @@
-# Tests réalisés par Julien VILLEMEJANE
+# Tests of Joy-It Car Board by Julien VILLEMEJANE
 
 PCB CHANGED !!
 
-## Systèmes
-===========
+## Systems
+==========
 
-- LEDs : à restester
+- LEDs : To retest with new pinouts
 + SWs : OK (Interrupt)
 + HeadLights (WS2812) : OK (with PixelArray and WS2812 libraries)
 + Potentiometer : OK (with onboard LED in PWM Mode)
 + Motors : OK with enable and PWM
 - Comm nRF24 :
 - Temp Num
-- Temp Analog
++ Temp Analog : OK
 - US Sensor
-- Line Detector
-- Speed Encoder
++ Line Detector : OK (Interrupt) - Required a calibration !
++ Speed Encoder : OK (Interrupt)
 - StandAlone (external power)
 
 
@@ -28,8 +28,3 @@ PCB CHANGED !!
 /!\ Attention, changement de PC_15 vers PC_7 pour D1 (problème avec PC_14, PC_15, PH_0 et PH_1 - autre utilisation sur Nucleo L476RG).
 
 /!\ Probable erreur de sens pour D1 et D2 (soudure)
-
-++ Switches Sw1, Sw2 et Userbutton
-----------------------------------
-
-Fonctionnels en interruption.
