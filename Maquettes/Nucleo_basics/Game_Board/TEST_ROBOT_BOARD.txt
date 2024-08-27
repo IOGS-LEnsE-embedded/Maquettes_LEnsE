@@ -10,8 +10,8 @@ PCB CHANGED !!
 + HeadLights (WS2812) : OK (with PixelArray and WS2812 libraries)
 + Potentiometer : OK (with onboard LED in PWM Mode)
 + Motors : OK with enable and PWM
-- Comm nRF24 :
-- Temp Num
++ Comm nRF24 : OK (with Remote)
+- Temp Num : To retest with 3.3V version !!
 + Temp Analog : OK
 - US Sensor
 + Line Detector : OK (Interrupt) - Required a calibration !
