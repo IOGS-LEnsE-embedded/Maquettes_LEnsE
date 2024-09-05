@@ -14,6 +14,7 @@ PCB CHANGED !!
 - Temp Num : To retest with 3.3V version !!
 + Temp Analog : OK
 - US Sensor
++ DOF6 - IMU3 Accelerometer : OK
 + Line Detector : OK (Interrupt) - Required a calibration !
 + Speed Encoder : OK (Interrupt)
 - StandAlone (external power)
