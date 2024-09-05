@@ -1,0 +1,68 @@
+[OPTIONS]
+Compatibility=1.1
+Full-text search=Yes
+Contents file=index.hhc
+Default Window=main
+Default topic=index.html
+Index file=index.hhk
+Language=0x409 English (United States)
+Title=c6dofimu3
+
+[WINDOWS]
+main="c6dofimu3","index.hhc","index.hhk","index.html","index.html",,,,,0x23520,,0x10387e,,,,,,,,0
+
+[FILES]
+_r_e_a_d_m_e_8md.html
+annotated.html
+c6dofimu3_8h.html
+c6dofimu3_8h_source.html
+classes.html
+dir_267be59bc44d035e6a917c2b9aa1f4b9.html
+dir_495af96e1c5ceb0729ab890144335ff3.html
+dir_547488a08eef1c5bdf57d3cc4f324722.html
+dir_a5bdbfbbaa7895161d62825676df7980.html
+dir_adca5deb00ffb67c75ffd54daea637eb.html
+files.html
+functions.html
+functions_vars.html
+globals.html
+globals_defs.html
+globals_func.html
+globals_type.html
+globals_vars.html
+group___i2_c__slv__addr.html
+group__accel__resolution.html
+group__c6dofimu3.html
+group__check__err.html
+group__communication.html
+group__data__rdy.html
+group__dev__id__val.html
+group__dummy.html
+group__error__code.html
+group__macros.html
+group__magnetometer__resolution.html
+group__map__mikrobus.html
+group__public__function.html
+group__reg__addr.html
+group__rst__pin__state.html
+group__spi.html
+group__type.html
+index.html
+main_8c.html
+modules.html
+structc6dofimu3__accel__t.html
+structc6dofimu3__cfg__t.html
+structc6dofimu3__mag__t.html
+structc6dofimu3__s.html
+bc_s.png
+bdwn.png
+closed.png
+nav_f.png
+nav_h.png
+open.png
+sync_off.png
+sync_on.png
+tab_a.png
+tab_b.png
+tab_h.png
+tab_s.png

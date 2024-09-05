@@ -1,12 +1,12 @@
 %TF.GenerationSoftware,KiCad,Pcbnew,8.0.0*%
-%TF.CreationDate,2024-08-23T16:41:07+02:00*%
+%TF.CreationDate,2024-09-05T11:38:34+02:00*%
 %TF.ProjectId,Motor_Board_L476RG,4d6f746f-725f-4426-9f61-72645f4c3437,rev?*%
 %TF.SameCoordinates,Original*%
 %TF.FileFunction,Copper,L1,Top*%
 %TF.FilePolarity,Positive*%
 %FSLAX46Y46*%
 G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
-G04 Created by KiCad (PCBNEW 8.0.0) date 2024-08-23 16:41:07*
+G04 Created by KiCad (PCBNEW 8.0.0) date 2024-09-05 11:38:34*
 %MOMM*%
 %LPD*%
 G01*
@@ -565,13 +565,13 @@ D17*
 %TO.N,Accel_RESET*%
 X136640000Y-67760000D03*
 %TO.P,CON1,P3,CS*%
-%TO.N,unconnected-(CON1-CS-PadP3)*%
+%TO.N,GND*%
 X136640000Y-70300000D03*
 %TO.P,CON1,P4,SCK*%
 %TO.N,unconnected-(CON1-SCK-PadP4)*%
 X136640000Y-72840000D03*
 %TO.P,CON1,P5,MISO*%
-%TO.N,unconnected-(CON1-MISO-PadP5)*%
+%TO.N,GND*%
 X136640000Y-75380000D03*
 %TO.P,CON1,P6,MOSI*%
 %TO.N,unconnected-(CON1-MOSI-PadP6)*%

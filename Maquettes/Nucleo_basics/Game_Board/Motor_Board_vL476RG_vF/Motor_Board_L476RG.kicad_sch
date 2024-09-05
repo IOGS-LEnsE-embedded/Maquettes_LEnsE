@@ -6167,6 +6167,16 @@
 	)
 	(wire
 		(pts
+			(xy 69.85 163.83) (xy 72.39 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d5345efe-1c7f-49bd-abac-9b401fb2a6a1")
+	)
+	(wire
+		(pts
 			(xy 203.2 38.1) (xy 205.74 38.1)
 		)
 		(stroke
@@ -6815,6 +6825,17 @@
 			)
 		)
 		(uuid "fe12d6bc-7d56-452f-b760-9df4d6d84566")
+	)
+	(label "SA1"
+		(at 71.12 163.83 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a1dc95c9-4d77-4a5c-885f-2e3ae6fc6bea")
 	)
 	(global_label "US_echo"
 		(shape input)
@@ -13756,6 +13777,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 69.85 163.83 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c76ea6d5-00d2-4c02-9634-8395ea65a47c")
+		(property "Reference" "#PWR036"
+			(at 63.5 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 66.5988 163.957 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 69.85 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 69.85 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 69.85 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1b700ead-5ba8-4f20-bfcb-fbb98bd2e380")
+		)
+		(instances
+			(project "Motor_Board_L476RG"
+				(path "/44ad8000-4ee7-4966-8fe6-195894dfb602"
+					(reference "#PWR036")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "mikroBUS:MIKROBUS_MODULE_CONN")
 		(at 238.76 163.83 0)
 		(unit 1)
@@ -13861,6 +13948,72 @@
 			(project "Motor_Board_L476RG"
 				(path "/44ad8000-4ee7-4966-8fe6-195894dfb602"
 					(reference "CON2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 69.85 173.99 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d7e5c50d-6548-411b-9191-e05dcec1fa3d")
+		(property "Reference" "#PWR035"
+			(at 63.5 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 66.5988 174.117 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 69.85 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 69.85 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 69.85 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "175277a5-265d-4f1d-9cff-c7aea6d64ba9")
+		)
+		(instances
+			(project "Motor_Board_L476RG"
+				(path "/44ad8000-4ee7-4966-8fe6-195894dfb602"
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
