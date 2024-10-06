@@ -3592,16 +3592,6 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 101.6) (xy 114.3 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "177628ac-3416-4656-9cae-e4870bb8a524")
-	)
-	(wire
-		(pts
 			(xy 194.31 132.08) (xy 194.31 130.81)
 		)
 		(stroke
@@ -4759,6 +4749,16 @@
 			(type default)
 		)
 		(uuid "e97ebe4e-4481-4018-8370-a4d3cdb0cb69")
+	)
+	(wire
+		(pts
+			(xy 111.76 99.06) (xy 114.3 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e99e18d8-1729-4e6f-a299-b3cce063f115")
 	)
 	(wire
 		(pts
@@ -6159,7 +6159,7 @@
 	)
 	(global_label "RT_OUT"
 		(shape input)
-		(at 114.3 101.6 0)
+		(at 114.3 99.06 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6169,7 +6169,7 @@
 		)
 		(uuid "be298817-724b-4210-ad7c-968a14ec78f6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 123.4648 101.6 0)
+			(at 123.4648 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
