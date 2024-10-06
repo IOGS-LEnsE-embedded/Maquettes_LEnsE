@@ -22159,7 +22159,7 @@
 		)
 	)
 	(gr_text "5V"
-		(at 224.4 46.4 0)
+		(at 223.8 49 0)
 		(layer "F.SilkS")
 		(uuid "39bfcc16-4a00-452a-b4b5-5a9bff5270ab")
 		(effects
@@ -22411,7 +22411,7 @@
 		)
 	)
 	(gr_text "GND"
-		(at 224.4 49 0)
+		(at 223.8 46.6 0)
 		(layer "F.SilkS")
 		(uuid "ce921615-3409-4c6a-87a0-4e62313b3f4c")
 		(effects

@@ -8159,6 +8159,7 @@
 		(property "Reference" "REF**"
 			(at 0 -4.2 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "af12156b-476f-4548-b7c3-f3fb96cf2169")
 			(effects
 				(font
@@ -8654,7 +8655,8 @@
 		(property "Reference" "REF**"
 			(at 0 -4.2 0)
 			(layer "F.SilkS")
-			(uuid "af12156b-476f-4548-b7c3-f3fb96cf2169")
+			(hide yes)
+			(uuid "bcf2b94e-d0f3-4e94-8e05-e8b65add7e52")
 			(effects
 				(font
 					(size 1 1)
@@ -8665,7 +8667,7 @@
 		(property "Value" "MountingHole_3.2mm_M3"
 			(at 0 4.2 0)
 			(layer "F.Fab")
-			(uuid "e0e13dc5-cdc0-4dab-aaa8-981e0d7e8d90")
+			(uuid "7cdc32c8-a3bb-45e2-8df1-f71d88b06128")
 			(effects
 				(font
 					(size 1 1)
@@ -8719,7 +8721,7 @@
 			)
 			(fill none)
 			(layer "Cmts.User")
-			(uuid "1ec743a9-67e2-4872-a52b-7ff281f9ca46")
+			(uuid "23c216fb-5e7a-4e49-9310-e6154a355822")
 		)
 		(fp_circle
 			(center 0 0)
@@ -8730,12 +8732,12 @@
 			)
 			(fill none)
 			(layer "F.CrtYd")
-			(uuid "f6276aad-79ca-4944-81c4-f748f77620f4")
+			(uuid "6788d00f-cfd3-4e08-b694-b6d33f70d569")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 0)
 			(layer "F.Fab")
-			(uuid "50a344bc-79ef-40b5-b94f-abb641273425")
+			(uuid "a912fe99-8abe-4086-a9a2-decefa31bb52")
 			(effects
 				(font
 					(size 1 1)
@@ -8748,7 +8750,7 @@
 			(size 3.2 3.2)
 			(drill 3.2)
 			(layers "*.Cu" "*.Mask")
-			(uuid "1566b303-2fa7-4703-96e0-1bed6a01bc6c")
+			(uuid "2c75fd91-bd4a-422c-88c3-9032ca40a3b3")
 		)
 	)
 	(footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
@@ -10718,7 +10720,7 @@
 		(uuid "f4512dd3-3434-4984-a8fa-1c9345ed29ab")
 		(at 127.2 66.6 90)
 		(property "Reference" "G***"
-			(at 0 0 270)
+			(at 0 0 -90)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "bac6a0b3-ca8c-4ca7-b6e9-ceee0e56118d")
@@ -10730,7 +10732,7 @@
 			)
 		)
 		(property "Value" "LOGO"
-			(at 0.75 0 270)
+			(at 0.75 0 -90)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "bf211d07-505f-4aa1-a6ec-96f271883748")
@@ -13243,6 +13245,18 @@
 				(size 1.5 1.5)
 				(thickness 0.3)
 				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "GND"
+		(at 200.8 69.8 0)
+		(layer "F.SilkS")
+		(uuid "988578f3-eb56-4ab0-886a-0a6e3539a539")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.1)
 			)
 			(justify left bottom)
 		)
