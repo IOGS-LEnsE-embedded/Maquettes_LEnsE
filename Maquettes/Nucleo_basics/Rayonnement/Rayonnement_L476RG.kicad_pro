@@ -930,7 +930,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "VisionIndustrielle_TP.net",
-      "plot": "robot_gerber/",
+      "plot": "rayonnement_gerber/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",

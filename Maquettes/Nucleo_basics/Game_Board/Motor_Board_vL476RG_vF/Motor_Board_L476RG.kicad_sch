@@ -7559,7 +7559,7 @@
 	)
 	(global_label "5V"
 		(shape input)
-		(at 55.88 30.48 180)
+		(at 55.88 33.02 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7568,7 +7568,7 @@
 		)
 		(uuid "3df4d617-4695-485b-8c2a-aa4f3ccd422c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 55.88 30.48 0)
+			(at 55.88 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11585,7 +11585,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 55.88 33.02 270)
+		(at 55.88 30.48 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11593,7 +11593,7 @@
 		(dnp no)
 		(uuid "506fdeb3-e16d-4d27-a10c-2b59568e6eef")
 		(property "Reference" "#PWR09"
-			(at 49.53 33.02 0)
+			(at 49.53 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11602,7 +11602,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 52.6288 33.147 90)
+			(at 52.6288 30.607 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11611,7 +11611,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 55.88 33.02 0)
+			(at 55.88 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11620,7 +11620,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 55.88 33.02 0)
+			(at 55.88 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11629,7 +11629,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 55.88 33.02 0)
+			(at 55.88 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)

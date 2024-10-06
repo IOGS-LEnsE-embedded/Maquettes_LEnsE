@@ -4532,6 +4532,16 @@
 	)
 	(wire
 		(pts
+			(xy 166.37 96.52) (xy 168.91 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd208b4f-6be7-4536-a01c-83b854c78b73")
+	)
+	(wire
+		(pts
 			(xy 36.83 135.89) (xy 36.83 138.43)
 		)
 		(stroke
@@ -5315,7 +5325,7 @@
 	)
 	(global_label "Servo"
 		(shape input)
-		(at 151.13 58.42 180)
+		(at 96.52 81.28 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5324,7 +5334,7 @@
 		)
 		(uuid "11008646-08dc-464c-819a-db9ae7b71931")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 151.13 58.42 0)
+			(at 96.52 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5579,7 +5589,7 @@
 	)
 	(global_label "5V"
 		(shape input)
-		(at 55.88 30.48 180)
+		(at 55.88 33.02 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5588,7 +5598,7 @@
 		)
 		(uuid "3df4d617-4695-485b-8c2a-aa4f3ccd422c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 55.88 30.48 0)
+			(at 55.88 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6127,7 +6137,7 @@
 	)
 	(global_label "POT_OUT"
 		(shape input)
-		(at 114.3 88.9 0)
+		(at 168.91 96.52 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6137,7 +6147,7 @@
 		)
 		(uuid "aa8aea46-36e7-41ce-a32c-169b54c5f644")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 124.7953 88.9 0)
+			(at 179.4053 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8189,7 +8199,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 55.88 33.02 270)
+		(at 55.88 30.48 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8197,7 +8207,7 @@
 		(dnp no)
 		(uuid "506fdeb3-e16d-4d27-a10c-2b59568e6eef")
 		(property "Reference" "#PWR06"
-			(at 49.53 33.02 0)
+			(at 49.53 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8206,7 +8216,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 52.6288 33.147 90)
+			(at 52.6288 30.607 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8215,7 +8225,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 55.88 33.02 0)
+			(at 55.88 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8224,7 +8234,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 55.88 33.02 0)
+			(at 55.88 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8233,7 +8243,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 55.88 33.02 0)
+			(at 55.88 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
