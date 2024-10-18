@@ -9310,7 +9310,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "MCP_4132"
 			(at 248.5741 74.93 0)
 			(effects
 				(font
@@ -9398,7 +9398,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "MCP_4132"
 			(at 51.7241 165.1 0)
 			(effects
 				(font
