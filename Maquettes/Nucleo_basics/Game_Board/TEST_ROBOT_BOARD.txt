@@ -5,27 +5,20 @@ PCB CHANGED !!
 ## Systems
 ==========
 
-- LEDs : To retest with new pinouts
-+ SWs : OK (Interrupt)
-+ HeadLights (WS2812) : OK (with PixelArray and WS2812 libraries)
-+ Potentiometer : OK (with onboard LED in PWM Mode)
-+ Motors : OK with enable and PWM
-+ Comm nRF24 : OK (with Remote)
-- Temp Num : To retest with 3.3V version !!
-+ Temp Analog : OK
-- US Sensor
-+ DOF6 - IMU3 Accelerometer : OK
-+ Line Detector : OK (Interrupt) - Required a calibration !
-+ Speed Encoder : OK (Interrupt)
-- StandAlone (external power)
++ LEDs : OK - /!\ D1 inverted power-on
++ SWs : OK (+ Interrupt : OK)
+ HeadLights (WS2812) : OK (with PixelArray and WS2812 libraries)
+ Potentiometer : OK (with onboard LED in PWM Mode)
+ Motors : OK with enable and PWM
+ Comm nRF24 : OK (with Remote)
+ Temp Num : To retest with 3.3V version !!
+ Temp Analog : OK
+ US Sensor
+ DOF6 - IMU3 Accelerometer : OK
+ Line Detector : OK (Interrupt) - Required a calibration !
+ Speed Encoder : OK (Interrupt)
+ StandAlone (external power)
 
-
-## 23/08/2024
-=============
-
-++ LEDs D1 et D2
-----------------
 
 /!\ Attention, changement de PC_15 vers PC_7 pour D1 (problème avec PC_14, PC_15, PH_0 et PH_1 - autre utilisation sur Nucleo L476RG).
 
-/!\ Probable erreur de sens pour D1 et D2 (soudure)

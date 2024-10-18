@@ -6535,6 +6535,16 @@
 		)
 		(uuid "01985f98-f77e-47a7-b9f9-2b2e22c645cf")
 	)
+	(text "PA_0\n"
+		(exclude_from_sim no)
+		(at 127.762 89.154 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "075bd056-289d-431c-ad19-762ea2ccdab8")
+	)
 	(text "PC_2"
 		(exclude_from_sim no)
 		(at 82.804 99.314 0)
@@ -6544,6 +6554,26 @@
 			)
 		)
 		(uuid "097a609d-7db8-4719-8ba3-9405a00445ee")
+	)
+	(text "PA_9"
+		(exclude_from_sim no)
+		(at 135.89 81.534 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "0ee44094-ba1c-4d79-b964-d6d50ef59ba6")
+	)
+	(text "PA_4"
+		(exclude_from_sim no)
+		(at 128.016 94.234 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "1c509049-dee5-4ed7-a317-a8171c3c41f4")
 	)
 	(text "PB_8"
 		(exclude_from_sim no)
@@ -6564,6 +6594,16 @@
 			)
 		)
 		(uuid "3c826b21-4f2b-4db0-b45b-a90599e0c7df")
+	)
+	(text "PA_10"
+		(exclude_from_sim no)
+		(at 136.144 97.028 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "408feb1f-2a2d-44a0-a98f-012626967e9f")
 	)
 	(text "PC_8"
 		(exclude_from_sim no)
@@ -6655,6 +6695,26 @@
 		)
 		(uuid "6620ba21-276e-46f6-a6d5-887b7f616095")
 	)
+	(text "PB_4"
+		(exclude_from_sim no)
+		(at 135.382 89.154 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "73592921-01b5-4651-ac6d-e034dd6c34e1")
+	)
+	(text "PC_9"
+		(exclude_from_sim no)
+		(at 137.922 56.134 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "7869d3a4-bdcf-4d8e-9c8b-6f1dc5852e73")
+	)
 	(text "PC_5"
 		(exclude_from_sim no)
 		(at 182.626 61.214 0)
@@ -6695,6 +6755,16 @@
 		)
 		(uuid "9330a842-086e-4302-8200-03239b36d353")
 	)
+	(text "PB_10"
+		(exclude_from_sim no)
+		(at 135.89 86.614 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "969fcea4-9978-45c2-9369-c6d91a1db8d8")
+	)
 	(text "PC_13"
 		(exclude_from_sim no)
 		(at 76.454 83.82 0)
@@ -6714,6 +6784,16 @@
 			)
 		)
 		(uuid "9d6ff981-36eb-48e9-83c5-dece1c7336ba")
+	)
+	(text "PA_1"
+		(exclude_from_sim no)
+		(at 127.762 91.694 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "a0b6444a-72b4-4c44-b580-bbf81dba0965")
 	)
 	(text "PA_15"
 		(exclude_from_sim no)
@@ -6744,6 +6824,16 @@
 			)
 		)
 		(uuid "a9cd8b0a-f41b-433e-9024-59bf999f92a8")
+	)
+	(text "PA_8"
+		(exclude_from_sim no)
+		(at 135.89 84.074 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "ac937ae0-a13d-478f-a353-3c1e3ee610c8")
 	)
 	(text "PC_4"
 		(exclude_from_sim no)
@@ -6805,6 +6895,16 @@
 			)
 		)
 		(uuid "cf67fa85-702b-45b6-a980-50f57393de4d")
+	)
+	(text "PC_0"
+		(exclude_from_sim no)
+		(at 125.984 101.854 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "d4dc3be9-6c15-4a91-93b9-1cecdb6b48ea")
 	)
 	(text "PC_3"
 		(exclude_from_sim no)
