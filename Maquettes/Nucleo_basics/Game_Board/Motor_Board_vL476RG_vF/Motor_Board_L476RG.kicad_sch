@@ -6926,6 +6926,16 @@
 		)
 		(uuid "d88fe9af-538b-4479-8c67-0c9d162e3bd1")
 	)
+	(text "PB_6"
+		(exclude_from_sim no)
+		(at 139.446 76.454 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "fbbd75c2-c213-4237-9620-a7fce464d246")
+	)
 	(text "PC_6"
 		(exclude_from_sim no)
 		(at 182.626 58.674 0)
