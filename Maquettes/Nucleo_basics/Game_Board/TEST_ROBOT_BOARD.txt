@@ -12,10 +12,10 @@
  Temp Num : To retest with 3.3V version !!
 + Temp Analog : OK
  US Sensor
- DOF6 - IMU3 Accelerometer : OK
- Line Detector : OK (Interrupt) - Required a calibration !
- Speed Encoder : OK (Interrupt)
- StandAlone (external power)
++ DOF6 - IMU3 Accelerometer - I2C : OK
+* Line Detector : OK (Interrupt) - Required a calibration ! ONLY central sensor !
+* Speed Encoder : OK (Interrupt)  ONLY left sensor !
++ StandAlone (external power)
 
 
 /!\ Attention, changement de PC_15 vers PC_7 pour D1 (problème avec PC_14, PC_15, PH_0 et PH_1 - autre utilisation sur Nucleo L476RG).
