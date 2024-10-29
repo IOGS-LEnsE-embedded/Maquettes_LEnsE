@@ -8,7 +8,7 @@
 + HeadLights (NeoPixel) : OK
 + Potentiometer : OK (with STM32 timer)
 + Motors : OK with enable and PWM
- Comm nRF24 : OK (with Remote)
++ Comm nRF24 : OK (with Remote)
 + Temp Num : To retest with 3.3V version !!
 + Temp Analog : OK
  US Sensor
