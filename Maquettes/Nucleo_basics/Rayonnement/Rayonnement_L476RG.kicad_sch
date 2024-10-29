@@ -4980,6 +4980,16 @@
 		)
 		(uuid "3c826b21-4f2b-4db0-b45b-a90599e0c7df")
 	)
+	(text "PB_0"
+		(exclude_from_sim no)
+		(at 133.096 96.774 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "40694642-f94b-48bc-8624-1fc531e2d61d")
+	)
 	(text "PC_8"
 		(exclude_from_sim no)
 		(at 182.626 56.134 0)
@@ -5002,7 +5012,7 @@
 	)
 	(text "PB_3\n\n"
 		(exclude_from_sim no)
-		(at 135.382 95.25 0)
+		(at 139.954 95.25 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5089,6 +5099,16 @@
 			)
 		)
 		(uuid "8740c84b-acfb-4373-9563-30eb769f7fc2")
+	)
+	(text "PC_1"
+		(exclude_from_sim no)
+		(at 133.096 99.568 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "8a6ba3a5-c220-4362-8fee-7f8166939b8a")
 	)
 	(text "PC_12"
 		(exclude_from_sim no)
@@ -5200,6 +5220,16 @@
 		)
 		(uuid "b8f513c2-45c7-4fd2-991a-655bb178f8d6")
 	)
+	(text "PA_1"
+		(exclude_from_sim no)
+		(at 125.984 91.44 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "bb258cd5-8b74-413a-aab7-8faee3139a3d")
+	)
 	(text "Nucleo BOARD"
 		(exclude_from_sim no)
 		(at 180.848 48.514 0)
@@ -5210,6 +5240,16 @@
 			(justify left bottom)
 		)
 		(uuid "bf88820f-0ac6-4d33-a482-00f2c2640c29")
+	)
+	(text "PC_0"
+		(exclude_from_sim no)
+		(at 133.096 102.108 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "bfdee006-0d3a-456b-b34d-0e9b9b1fa169")
 	)
 	(text "PB_12"
 		(exclude_from_sim no)
@@ -5241,6 +5281,26 @@
 		)
 		(uuid "d88fe9af-538b-4479-8c67-0c9d162e3bd1")
 	)
+	(text "PA_0"
+		(exclude_from_sim no)
+		(at 125.984 89.154 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "e9d5a205-43e2-49e5-b75a-83d8d3bf0bad")
+	)
+	(text "PA_4"
+		(exclude_from_sim no)
+		(at 125.984 93.98 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "f9b91535-3537-453c-9cf9-627ce5f4699b")
+	)
 	(text "PC_6"
 		(exclude_from_sim no)
 		(at 182.626 58.674 0)
@@ -5253,7 +5313,7 @@
 	)
 	(text "PB_5\n\n"
 		(exclude_from_sim no)
-		(at 135.382 92.71 0)
+		(at 139.954 92.71 0)
 		(effects
 			(font
 				(size 1.27 1.27)

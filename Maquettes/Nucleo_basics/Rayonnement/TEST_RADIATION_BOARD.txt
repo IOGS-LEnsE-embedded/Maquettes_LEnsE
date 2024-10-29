@@ -1,0 +1,19 @@
+# Tests of Radiation Board by Julien VILLEMEJANE
+
+## Systems
+==========
+
++ LEDs : 
++ SWs : (+ Interrupt : OK)
++ Potentiometer : OK (with STM32 timer)
+ Digital Pot 1 : 
+ Digital Pot 2 : 
+* Thermistance - test with real RT10k
++ Photodiode
+ Power LED
+ Servomotor 
+ StandAlone (external power)
+
+
+/!\ PC_14, PC_15, PH_0 et PH_1 can't be used - other functions on Nucleo L476RG).
+
