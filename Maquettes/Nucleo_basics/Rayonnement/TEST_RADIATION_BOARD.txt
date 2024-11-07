@@ -6,11 +6,11 @@
 + LEDs : 
 + SWs : (+ Interrupt : OK)
 + Potentiometer : OK (with STM32 timer)
- Digital Pot 1 : 
- Digital Pot 2 : 
++ Digital Pot 1 : 
++ Digital Pot 2 : 
 * Thermistance - test with real RT10k
 + Photodiode
- Power LED
++ Power LED
  Servomotor 
  StandAlone (external power)
 
