@@ -1,6 +1,6 @@
 # Joy-It Car
 ============
 
-- Changer PA_5 vers PA_6 / Capteur Ligne Droit - Pb avec D13 et capteur 
+- Changer PA_5 vers PB_12 / Capteur Ligne Droit - Pb avec D13 et capteur 
 
 
