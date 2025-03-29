@@ -1,5 +1,9 @@
 
+ADC polling : https://www.youtube.com/watch?v=5-08Eaa_OlI&list=PLwa4R2HaZEqihzreDJynbcYGlc-mXn7F2&index=4
+
 Real Time FFT : 
 	https://hackaday.io/page/38607-fft-in-real-time-in-stm32-mcus
 	
 https://www.youtube.com/watch?v=uTC7hhBfr3w
+http://t-filter.engineerjs.com/
+
